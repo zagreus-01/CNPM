@@ -1,72 +1,60 @@
 ﻿using System;
 using System.Windows.Forms;
+using PJCNPM.BLL.HocSinh;
 using PJCNPM.UI.PopUpFrm.HocSinhPopUp;
 
 namespace PJCNPM.UI.Controls.HocSinhControls
 {
     public partial class ThongTinHocSinh : UserControl
     {
-        public ThongTinHocSinh()
+        private readonly ThongTinHocSinhBLL bll = new ThongTinHocSinhBLL();
+        private HocSinhDTO currentHS;
+        private readonly int hocSinhID;
+
+        public ThongTinHocSinh(int maHocSinh)
         {
             InitializeComponent();
+            hocSinhID = maHocSinh;
             this.Load += ThongTinHocSinh_Load;
         }
 
         private void ThongTinHocSinh_Load(object sender, EventArgs e)
         {
-            // 🧠 Giả lập lấy dữ liệu học sinh
-            var hs = GetHocSinhById(1);
-
-            // 🏷️ Hiển thị thông tin lên các label
-            valMaHS.Text = hs.HocSinhID.ToString();
-            valHoTen.Text = hs.HoTen;
-            valNgaySinh.Text = hs.NgaySinh.ToString("dd/MM/yyyy");
-            valGioiTinh.Text = hs.GioiTinh ? "Nam" : "Nữ";
-            valDanToc.Text = hs.DanToc;
-            valTonGiao.Text = hs.TonGiao;
-            valQueQuan.Text = hs.QueQuan;
-            valTrangThai.Text = hs.TrangThai;
-            valNamNhapHoc.Text = hs.NamNhapHoc.ToString();
+            LoadThongTinHocSinh();
         }
 
-        private HocSinh GetHocSinhById(int id)
+        private void LoadThongTinHocSinh()
         {
-            // 🚀 Bạn có thể gọi DAL hoặc database thật ở đây.
-            return new HocSinh
+            currentHS = bll.GetHocSinhById(hocSinhID);
+            if (currentHS == null)
             {
-                HocSinhID = 1,
-                HoTen = "Nguyễn Văn A",
-                NgaySinh = new DateTime(2008, 5, 20),
-                GioiTinh = true,
-                DanToc = "Kinh",
-                TonGiao = "Không",
-                QueQuan = "TP. Hồ Chí Minh",
-                TrangThai = "Đang học",
-                NamNhapHoc = 2023
-            };
+                MessageBox.Show("Không tìm thấy thông tin học sinh.",
+                    "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            valMaHS.Text = currentHS.HocSinhID.ToString();
+            valHoTen.Text = currentHS.HoTen;
+            valNgaySinh.Text = currentHS.NgaySinh.ToString("dd/MM/yyyy");
+            valGioiTinh.Text = currentHS.GioiTinh;
+            valDanToc.Text = currentHS.DanToc;
+            valTonGiao.Text = currentHS.TonGiao;
+            valQueQuan.Text = currentHS.QueQuan;
+            valTrangThai.Text = currentHS.TrangThai;
+            valNamNhapHoc.Text = currentHS.NamNhapHoc.ToString();
         }
 
         private void btnYeuCauChinhSua_Click(object sender, EventArgs e)
         {
-           HocSinh hs = GetHocSinhById(1);  
+            if (currentHS == null)
+            {
+                MessageBox.Show("Không có dữ liệu học sinh để chỉnh sửa.",
+                    "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-            FrmYeuCauChinhSuaHocSinh yc= new FrmYeuCauChinhSuaHocSinh(hs);
-            yc.ShowDialog();
-
+            FrmYeuCauChinhSuaHocSinh frm = new FrmYeuCauChinhSuaHocSinh(currentHS);
+            frm.ShowDialog();
         }
-
-    }
-
-    public class HocSinh
-    {
-        public int HocSinhID { get; set; }
-        public string HoTen { get; set; }
-        public DateTime NgaySinh { get; set; }
-        public bool GioiTinh { get; set; }
-        public string DanToc { get; set; }
-        public string TonGiao { get; set; }
-        public string QueQuan { get; set; }
-        public string TrangThai { get; set; }
-        public int NamNhapHoc { get; set; }
     }
 }

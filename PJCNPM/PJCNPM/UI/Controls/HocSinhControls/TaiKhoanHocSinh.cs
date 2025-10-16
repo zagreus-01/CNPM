@@ -1,22 +1,42 @@
 ﻿using System;
 using System.Windows.Forms;
 using PJCNPM.UI.PopUpFrm.HocSinhPopUp;
+using PJCNPM.BLL.HocSinh;
 
 namespace PJCNPM.UI.Controls.HocSinhControls
 {
     public partial class TaiKhoanHocSinh : UserControl
     {
-        public TaiKhoanHocSinh()
+        private readonly TaiKhoanHocSinhBLL taiKhoanBLL = new TaiKhoanHocSinhBLL();
+        private readonly int maHS;
+
+        public TaiKhoanHocSinh(int hocSinhID)
         {
             InitializeComponent();
+            maHS = hocSinhID;
             LoadTaiKhoan();
         }
 
         private void LoadTaiKhoan()
         {
-            valHoTen.Text = "Nguyễn Văn A";
-            valTenDangNhap.Text = "hs_23110358";
-            txtMatKhau.Text = "12345678";
+            try
+            {
+                var info = taiKhoanBLL.GetTaiKhoanHocSinh(maHS);
+                if (string.IsNullOrEmpty(info.TenDangNhap))
+                {
+                    MessageBox.Show("Không tìm thấy tài khoản!", "Lỗi",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                valHoTen.Text = info.HoTen;
+                valTenDangNhap.Text = info.TenDangNhap;
+                txtMatKhau.Text = info.MatKhau;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi tải tài khoản: " + ex.Message);
+            }
         }
 
         private void swShowPassword_CheckedChanged(object sender, EventArgs e)
@@ -26,12 +46,15 @@ namespace PJCNPM.UI.Controls.HocSinhControls
 
         private void btnDoiMatKhau_Click(object sender, EventArgs e)
         {
-            // Lấy tên đăng nhập từ control hiện tại
             string tenDangNhap = valTenDangNhap.Text.Trim();
-            string matkhau = txtMatKhau.Text.Trim(); // Giả lập lấy mật khẩu hiện tại
-            using (var frm = new FrmDoiMatKhauHocSinh(tenDangNhap, matkhau))
+            string matKhauCu = txtMatKhau.Text.Trim();
+
+            using (var frm = new FrmDoiMatKhauHocSinh(tenDangNhap, matKhauCu))
             {
-                frm.ShowDialog();
+                if (frm.ShowDialog() == DialogResult.OK)
+                {
+                    LoadTaiKhoan(); // Cập nhật lại mật khẩu mới
+                }
             }
         }
     }

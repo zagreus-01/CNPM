@@ -15,12 +15,13 @@ namespace PJCNPM.UI.MainFrm
     public partial class HocSinh : Form
     {
         private bool isSidebarCollapsed = false;
-
-        public HocSinh()
+        int maHS;
+        public HocSinh(int maHS)
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
-            LoadContent(new ThongBaoHocSinh()); // Mặc định load Thông tin cá nhân
+            LoadContent(new ThongBaoHocSinh(maHS)); // Mặc định load Thông tin cá nhân
+            this.maHS = maHS;
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
@@ -65,27 +66,24 @@ namespace PJCNPM.UI.MainFrm
         private void btnThongTinCaNhan_Click(object sender, EventArgs e)
         {
             HighlightButton(btnThongTinCaNhan);
-            LoadContent(new ThongTinHocSinh()); // Giả sử ID học sinh là 1
+            LoadContent(new ThongTinHocSinh(maHS));
         }
 
         private void btnThongBao_Click(object sender, EventArgs e)
         {
             HighlightButton(btnThongBao);
-            LoadContent(new ThongBaoHocSinh());
-            // loadControl(new ThongBaoControl());
+            LoadContent(new ThongBaoHocSinh(maHS));
         }
-
-
         private void btnDiemSo_Click(object sender, EventArgs e)
         {
             HighlightButton(btnDiemSo);
-            LoadContent(new DiemSoHocSinh());
+            LoadContent(new DiemSoHocSinh(maHS));
         }
 
         private void btnChinhSuaTaiKhoan_Click(object sender, EventArgs e)
         {
             HighlightButton(btnChinhSuaTaiKhoan);
-            LoadContent(new TaiKhoanHocSinh());
+            LoadContent(new TaiKhoanHocSinh(maHS));
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

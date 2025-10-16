@@ -3,32 +3,96 @@
   "WorkspaceRootPath": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\admincontrols\\hocsinhadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\hocsinhadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\bll\\hocsinh\\taikhoanhocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\hocsinh\\taikhoanhocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\admincontrols\\hocsinhadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\hocsinhadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\admincontrols\\hocsinhadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\hocsinhadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\dal\\taikhoandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\taikhoandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\mainfrm\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\bll\\admin\\chitietchinhsuabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\admin\\chitietchinhsuabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmchitietchinhsua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmchitietchinhsua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmchitietchinhsua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmchitietchinhsua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmchitietchinhsua.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmchitietchinhsua.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\dal\\admin\\xetduyetdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\admin\\xetduyetdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\admincontrols\\xetduyetadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\xetduyetadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\admincontrols\\thongbaoadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\thongbaoadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmthongbaoadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmthongbaoadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\admincontrols\\xetduyetadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\xetduyetadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\bll\\admin\\xetduyetbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\admin\\xetduyetbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\bll\\hocsinh\\diemhocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\hocsinh\\diemhocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\hocsinhcontrols\\diemsohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\hocsinhcontrols\\diemsohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\hocsinhcontrols\\diemsohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\hocsinhcontrols\\diemsohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\bll\\hocsinh\\thongtinhocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\hocsinh\\thongtinhocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\hocsinhcontrols\\diemsohocsinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\hocsinhcontrols\\diemsohocsinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\utils\\enumhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\utils\\enumhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\hocsinhcontrols\\thongtinhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\hocsinhcontrols\\thongtinhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\hocsinhcontrols\\thongbaohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,16 +103,16 @@
       "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\hocsinhcontrols\\thongbaohocsinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmhocsinheditadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmhocsinheditadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\hocsinhcontrols\\thongbaohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\hocsinhcontrols\\thongbaohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmhocsinheditadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmhocsinheditadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\admincontrols\\hocsinhadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\hocsinhadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmhocsinheditadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmhocsinheditadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|d:\\ki1_nam3\\cnpm\\pjcnpm\\pjcnpm\\ui\\controls\\hocsinhcontrols\\diemsohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\hocsinhcontrols\\diemsohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,160 +122,367 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HocSinhAdmin.cs",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs*",
-              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwB8AAABZAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Login.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Login.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Login.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Login.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwGUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:17:28.577Z",
+              "WhenOpened": "2025-10-16T02:09:50.533Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaiKhoanHocSinhBLL.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\HocSinh\\TaiKhoanHocSinhBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\HocSinh\\TaiKhoanHocSinhBLL.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\HocSinh\\TaiKhoanHocSinhBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\HocSinh\\TaiKhoanHocSinhBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T02:32:17.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HocSinhAdmin.cs [Design]",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs [Design]*",
-              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs [Design]*",
+              "Title": "TaiKhoanBLL.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\TaiKhoanBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\TaiKhoanBLL.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\TaiKhoanBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\TaiKhoanBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:17:25.73Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DiemSoHocSinh.cs",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs*",
-              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs*",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:15:58.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DiemSoHocSinh.cs [Design]",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs [Design]*",
-              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:15:55.542Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DiemSoHocSinh.Designer.cs",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.Designer.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.Designer.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.Designer.cs",
-              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:10:03.659Z",
+              "WhenOpened": "2025-10-16T02:14:29.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HocSinhAdmin.Designer.cs",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.Designer.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.Designer.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.Designer.cs",
-              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.Designer.cs",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAYwPMAAABrAAAAAAAAAA==",
+              "Title": "TaiKhoanDAL.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\DAL\\TaiKhoanDAL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\DAL\\TaiKhoanDAL.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\DAL\\TaiKhoanDAL.cs",
+              "RelativeToolTip": "PJCNPM\\DAL\\TaiKhoanDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:09:16.991Z",
+              "WhenOpened": "2025-10-16T02:13:41.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Login.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Login.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Login.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T02:07:22.877Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Login.Designer.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Login.Designer.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Login.Designer.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwEsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T02:07:27.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\Program.cs",
               "RelativeDocumentMoniker": "PJCNPM\\Program.cs",
               "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\Program.cs",
               "RelativeToolTip": "PJCNPM\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:10:38.862Z",
+              "WhenOpened": "2025-10-16T01:06:11.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ThongBaoHocSinh.cs",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
-              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wCAAAABDAAAAAAAAAA==",
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\DAL\\DBConnection.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\DAL\\DBConnection.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\DAL\\DBConnection.cs",
+              "RelativeToolTip": "PJCNPM\\DAL\\DBConnection.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:13:58.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ThongBaoHocSinh.Designer.cs",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.Designer.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.Designer.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.Designer.cs",
-              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.Designer.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAuwHMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:10:25.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FrmHocSinhEditAdmin.Designer.cs",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.Designer.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.Designer.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.Designer.cs",
-              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.Designer.cs",
-              "ViewState": "AgIAAFQBAAAAAAAAAAAuwGABAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T02:41:58.87Z",
+              "WhenOpened": "2025-10-16T01:31:49.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "FrmHocSinhEditAdmin.cs [Design]",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.cs [Design]",
-              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.cs [Design]",
+              "Title": "FrmChiTietChinhSua.cs [Design]",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T02:41:56.222Z",
+              "WhenOpened": "2025-10-16T02:01:44.533Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmHocSinhEditAdmin.cs",
-              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.cs",
-              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.cs",
-              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmHocSinhEditAdmin.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAuwGUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ChiTietChinhSuaBLL.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\Admin\\ChiTietChinhSuaBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\Admin\\ChiTietChinhSuaBLL.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\Admin\\ChiTietChinhSuaBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\Admin\\ChiTietChinhSuaBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T02:42:20.433Z",
+              "WhenOpened": "2025-10-16T01:47:07.821Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmChiTietChinhSua.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:38:53.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmChiTietChinhSua.Designer.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.Designer.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.Designer.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.Designer.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChiTietChinhSua.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:49:10.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "XetDuyetDAL.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\DAL\\Admin\\XetDuyetDAL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\DAL\\Admin\\XetDuyetDAL.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\DAL\\Admin\\XetDuyetDAL.cs",
+              "RelativeToolTip": "PJCNPM\\DAL\\Admin\\XetDuyetDAL.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAkwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:31:08.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "XetDuyetAdmin.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAnwDkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:24:47.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ThongBaoAdmin.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\ThongBaoAdmin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\ThongBaoAdmin.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\ThongBaoAdmin.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\ThongBaoAdmin.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:43:39.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmThongBaoAdmin.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmThongBaoAdmin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmThongBaoAdmin.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmThongBaoAdmin.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmThongBaoAdmin.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:42:39.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "XetDuyetAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:39:10.627Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "XetDuyetBLL.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\Admin\\XetDuyetBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\Admin\\XetDuyetBLL.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\Admin\\XetDuyetBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\Admin\\XetDuyetBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:34:33.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DiemHocSinhBLL.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\HocSinh\\DiemHocSinhBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\HocSinh\\DiemHocSinhBLL.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\HocSinh\\DiemHocSinhBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\HocSinh\\DiemHocSinhBLL.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:21:45.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ThongTinHocSinhBLL.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\HocSinh\\ThongTinHocSinhBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\HocSinh\\ThongTinHocSinhBLL.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\BLL\\HocSinh\\ThongTinHocSinhBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\HocSinh\\ThongTinHocSinhBLL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:19:11.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EnumHelper.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\Utils\\EnumHelper.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\Utils\\EnumHelper.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\Utils\\EnumHelper.cs",
+              "RelativeToolTip": "PJCNPM\\Utils\\EnumHelper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:18:18.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ThongTinHocSinh.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongTinHocSinh.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongTinHocSinh.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongTinHocSinh.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongTinHocSinh.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:17:20.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DiemSoHocSinh.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T00:59:01.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ThongBaoHocSinh.Designer.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.Designer.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.Designer.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.Designer.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.Designer.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwIcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T00:59:43.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ThongBaoHocSinh.cs [Design]",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T00:56:25.07Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ThongBaoHocSinh.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThongBaoHocSinh.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAQwMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T00:58:42.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HocSinhAdmin.cs",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\HocSinhAdmin.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwvwwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:06:54.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DiemSoHocSinh.cs [Design]",
+              "DocumentMoniker": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs",
+              "ToolTip": "D:\\Ki1_Nam3\\CNpm\\PJCNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\DiemSoHocSinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T00:56:23.371Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

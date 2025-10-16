@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
+using PJCNPM.BLL.HocSinh;
 
 namespace PJCNPM.UI.PopUpFrm.HocSinhPopUp
 {
     public partial class FrmYeuCauChinhSuaHocSinh : Form
     {
-        private dynamic hocSinhHienTai;
+        private readonly HocSinhDTO hocSinhHienTai;
 
-        public FrmYeuCauChinhSuaHocSinh(dynamic hocSinh)
+        public FrmYeuCauChinhSuaHocSinh(HocSinhDTO hocSinh)
         {
             hocSinhHienTai = hocSinh;
             InitializeComponent();
@@ -38,37 +38,67 @@ namespace PJCNPM.UI.PopUpFrm.HocSinhPopUp
         {
             if (hocSinhHienTai == null) return;
 
-            txtHoTen.Text = Convert.ToString(hocSinhHienTai.HoTen);
-            txtDanToc.Text = Convert.ToString(hocSinhHienTai.DanToc);
-            txtTonGiao.Text = Convert.ToString(hocSinhHienTai.TonGiao);
-            txtQueQuan.Text = Convert.ToString(hocSinhHienTai.QueQuan);
+            txtHoTen.Text = hocSinhHienTai.HoTen;
+            txtDanToc.Text = hocSinhHienTai.DanToc;
+            txtTonGiao.Text = hocSinhHienTai.TonGiao;
+            txtQueQuan.Text = hocSinhHienTai.QueQuan;
+            dtNgaySinh.Value = hocSinhHienTai.NgaySinh;
 
-            if (hocSinhHienTai.NgaySinh is DateTime date)
-                dtNgaySinh.Value = date;
-            else if (DateTime.TryParse(Convert.ToString(hocSinhHienTai.NgaySinh), out DateTime parsed))
-                dtNgaySinh.Value = parsed;
-
-            bool isNam = hocSinhHienTai.GioiTinh is bool b && b;
-            chkNam.Checked = isNam;
-            chkNu.Checked = !isNam;
+            if (hocSinhHienTai.GioiTinh=="Nam")
+            {
+                chkNam.Checked = true;
+                chkNu.Checked = false;
+            }
+            else
+            {
+                chkNam.Checked = false;
+                chkNu.Checked = true;
+            }
         }
 
         private void BtnGui_Click(object sender, EventArgs e)
         {
-            string gioiTinhText = chkNam.Checked ? "Nam" : "Nữ";
-            MessageBox.Show(
-                $"Yêu cầu chỉnh sửa đã được gửi!\n\n" +
-                $"Họ tên: {txtHoTen.Text}\n" +
-                $"Ngày sinh: {dtNgaySinh.Value:dd/MM/yyyy}\n" +
-                $"Giới tính: {gioiTinhText}\n" +
-                $"Dân tộc: {txtDanToc.Text}\n" +
-                $"Tôn giáo: {txtTonGiao.Text}\n" +
-                $"Quê quán: {txtQueQuan.Text}",
-                "Thông báo",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information);
-            this.DialogResult = DialogResult.OK;
-            this.Close();
+            try
+            {
+                if (string.IsNullOrWhiteSpace(txtHoTen.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập họ tên.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Lấy giới tính dạng chuỗi
+                string gioiTinhMoi = chkNam.Checked ? "Nam" : "Nữ";
+
+                var bll = new ThongTinHocSinhBLL();
+
+                bool ok = bll.GuiYeuCauChinhSua(
+                    hocSinhHienTai.HocSinhID,
+                    txtHoTen.Text.Trim(),
+                    dtNgaySinh.Value,
+                    gioiTinhMoi,
+                    txtDanToc.Text.Trim(),
+                    txtTonGiao.Text.Trim(),
+                    txtQueQuan.Text.Trim()
+                );
+
+                if (ok)
+                {
+                    MessageBox.Show("✅ Yêu cầu chỉnh sửa đã được gửi đến Ban quản trị.\nVui lòng chờ duyệt!",
+                        "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Không thể gửi yêu cầu, vui lòng thử lại.",
+                        "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi gửi yêu cầu: " + ex.Message,
+                    "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

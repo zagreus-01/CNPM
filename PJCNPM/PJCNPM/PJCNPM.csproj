@@ -56,12 +56,50 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\Admin\ChiTietChinhSuaBLL.cs" />
+    <Compile Include="BLL\Admin\ChuyenLopHocSinhBLL.cs" />
+    <Compile Include="BLL\Admin\DocXoaHocSinhBLL.cs" />
+    <Compile Include="BLL\Admin\HocBaBLL.cs" />
+    <Compile Include="BLL\Admin\NguoiNhanBLL.cs" />
+    <Compile Include="BLL\Admin\SaveHocSinhBLL.cs" />
+    <Compile Include="BLL\Admin\ThongBaoBLL.cs" />
+    <Compile Include="BLL\Admin\XetDuyetBLL.cs" />
+    <Compile Include="BLL\HocSinh\DiemHocSinhBLL.cs" />
+    <Compile Include="BLL\HocSinh\TaiKhoanHocSinhBLL.cs" />
+    <Compile Include="BLL\HocSinh\ThongBaoHocSinhBLL.cs" />
+    <Compile Include="BLL\HocSinh\ThongTinHocSinhBLL.cs" />
+    <Compile Include="BLL\TaiKhoanBLL.cs" />
+    <Compile Include="DAL\Admin\ChiTietChinhSuaDAL.cs" />
+    <Compile Include="DAL\Admin\ChuyenLopHocSinhDAL.cs" />
+    <Compile Include="DAL\Admin\DocXoaHocSinhDAL.cs" />
+    <Compile Include="DAL\Admin\HocBaAdminDAL.cs" />
+    <Compile Include="DAL\Admin\NguoiNhanDAL.cs" />
+    <Compile Include="DAL\Admin\SaveHocSinhDAL.cs" />
+    <Compile Include="DAL\Admin\ThongBaoDAL.cs" />
+    <Compile Include="DAL\Admin\XetDuyetDAL.cs" />
     <Compile Include="DAL\DBConnection.cs" />
+    <Compile Include="DAL\HocSinh\DiemDAL.cs" />
+    <Compile Include="DAL\HocSinh\TaiKhoanDAL.cs" />
+    <Compile Include="DAL\HocSinh\ThongBaoHocSinhDAL.cs" />
+    <Compile Include="DAL\HocSinh\ThongTinHocSinhDAL.cs" />
+    <Compile Include="DAL\TaiKhoanDAL.cs" />
     <Compile Include="UI\Controls\AdminControls\HocSinhAdmin.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UI\Controls\AdminControls\HocSinhAdmin.Designer.cs">
       <DependentUpon>HocSinhAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\ThongBaoAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\ThongBaoAdmin.Designer.cs">
+      <DependentUpon>ThongBaoAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\XetDuyetAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\XetDuyetAdmin.Designer.cs">
+      <DependentUpon>XetDuyetAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Controls\HocSinhControls\DiemSoHocSinh.cs">
       <SubType>UserControl</SubType>
@@ -101,11 +139,41 @@
     <Compile Include="UI\MainFrm\HocSinh.Designer.cs">
       <DependentUpon>HocSinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\MainFrm\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainFrm\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChiTietChinhSua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChiTietChinhSua.Designer.cs">
+      <DependentUpon>FrmChiTietChinhSua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.Designer.cs">
+      <DependentUpon>FrmChuyenLopAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhEditAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhEditAdmin.Designer.cs">
       <DependentUpon>FrmHocSinhEditAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmThongBaoAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmThongBaoAdmin.Designer.cs">
+      <DependentUpon>FrmThongBaoAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\HocBaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\HocBaAdmin.Designer.cs">
+      <DependentUpon>HocBaAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\PopUpFrm\HocSinhPopUp\FrmDoiMatKhauHocSinh.cs">
       <SubType>Form</SubType>
@@ -125,8 +193,12 @@
     <Compile Include="UI\PopUpFrm\HocSinhPopUp\FrmYeuCauChinhSuaHocSinh.Designer.cs">
       <DependentUpon>FrmYeuCauChinhSuaHocSinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utils\EnumHelper.cs" />
     <EmbeddedResource Include="UI\Controls\AdminControls\HocSinhAdmin.resx">
       <DependentUpon>HocSinhAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\ThongBaoAdmin.resx">
+      <DependentUpon>ThongBaoAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Controls\HocSinhControls\DiemSoHocSinh.resx">
       <DependentUpon>DiemSoHocSinh.cs</DependentUpon>
@@ -156,8 +228,17 @@
     <EmbeddedResource Include="UI\MainFrm\HocSinh.resx">
       <DependentUpon>HocSinh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmChiTietChinhSua.resx">
+      <DependentUpon>FrmChiTietChinhSua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.resx">
+      <DependentUpon>FrmChuyenLopAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhEditAdmin.resx">
       <DependentUpon>FrmHocSinhEditAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\HocBaAdmin.resx">
+      <DependentUpon>HocBaAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PopUpFrm\HocSinhPopUp\FrmDoiMatKhauHocSinh.resx">
       <DependentUpon>FrmDoiMatKhauHocSinh.cs</DependentUpon>
@@ -182,8 +263,6 @@
   <ItemGroup>
     <None Include="Resources\icons8-menu-48.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\HocSinh\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

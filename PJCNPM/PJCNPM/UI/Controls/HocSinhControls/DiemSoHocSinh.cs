@@ -1,100 +1,107 @@
 ﻿using System;
 using System.Data;
-using System.Windows.Forms;
 using System.Drawing;
+using System.Windows.Forms;
+using System.Collections.Generic;
+using PJCNPM.BLL.HocSinh;   // Namespace chứa DiemHocSinhBLL
 
 namespace PJCNPM.UI.Controls.HocSinhControls
 {
     public partial class DiemSoHocSinh : UserControl
     {
-        public DiemSoHocSinh()
+        private readonly DiemHocSinhBLL diemBLL = new DiemHocSinhBLL();
+        private readonly int maHS;
+
+        public DiemSoHocSinh(int maHs)
         {
             InitializeComponent();
+            maHS = maHs;
             InitCombos();
         }
 
         private void InitCombos()
         {
-            // Năm học
-            cboNamHoc.Items.AddRange(new object[] { "2023", "2024", "2025" });
-            cboNamHoc.SelectedIndex = 0;
+            try
+            {
+                // ===== Năm học =====
+                List<string> dsNamHoc = diemBLL.GetNamHocHocSinh(maHS);
+                cboNamHoc.Items.Clear();
+                cboNamHoc.Items.AddRange(dsNamHoc.ToArray());
 
-            // Học kỳ
-            cboHocKy.Items.AddRange(new object[] { "Tất cả", "Học kỳ 1", "Học kỳ 2" });
-            cboHocKy.SelectedIndex = 0;
+                if (cboNamHoc.Items.Count > 0)
+                    cboNamHoc.SelectedIndex = 0;
 
-            cboNamHoc.SelectedIndexChanged += (s, e) => LoadDiem();
-            cboHocKy.SelectedIndexChanged += (s, e) => LoadDiem();
+                // ===== Học kỳ =====
+                cboHocKy.Items.Clear();
+                cboHocKy.Items.AddRange(new object[] { "Tất cả", "Học kỳ 1", "Học kỳ 2" });
+                cboHocKy.SelectedIndex = 0;
 
-            LoadDiem();
+                // ===== Sự kiện thay đổi =====
+                cboNamHoc.SelectedIndexChanged += (s, e) => LoadDiem();
+                cboHocKy.SelectedIndexChanged += (s, e) => LoadDiem();
+
+                // Gọi lần đầu
+                LoadDiem();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi tải dữ liệu năm học: " + ex.Message);
+            }
         }
 
         private void LoadDiem()
         {
-            string hocKyStr = cboHocKy.SelectedItem.ToString();
-            int? hocKy = null;
-            if (hocKyStr == "Học kỳ 1")
-                hocKy = 1;
-            else if (hocKyStr == "Học kỳ 2")
-                hocKy = 2;
-
-            DataTable dt = new DataTable();
-
-            if (hocKy == null)
+            try
             {
-                // ====== CẢ NĂM ======
-                dt.Columns.Add("Môn học");
-                dt.Columns.Add("Trung bình HK1");
-                dt.Columns.Add("Trung bình HK2");
-                dt.Columns.Add("Trung bình cả năm");
+                if (cboNamHoc.SelectedItem == null) return;
 
-                dt.Rows.Add("Toán", 8.4, 7.8, 8.1);
-                dt.Rows.Add("Ngữ văn", 7.9, 7.2, 7.6);
-                dt.Rows.Add("Anh văn", 8.3, 8.0, 8.15);
-                dt.Rows.Add("Vật lý", 7.8, 7.6, 7.7);
-                dt.Rows.Add("Hóa học", 8.1, 8.0, 8.05);
+                string namHocStr = cboNamHoc.SelectedItem.ToString();
+                string hocKyStr = cboHocKy.SelectedItem.ToString();
 
-                lblDiemTB.Text = "Điểm trung bình năm: 7.9";
-                lblHanhKiem.Text = "Hạnh kiểm năm: Tốt";
-            }
-            else
-            {
-                // ====== HỌC KỲ CỤ THỂ ======
-                dt.Columns.Add("Môn học");
-                dt.Columns.Add("TX1");
-                dt.Columns.Add("TX2");
-                dt.Columns.Add("TX3");
-                dt.Columns.Add("TX4");
-                dt.Columns.Add("Giữa kỳ");
-                dt.Columns.Add("Cuối kỳ");
-                dt.Columns.Add("Trung bình môn");
+                // Lấy dữ liệu điểm và hạnh kiểm từ BLL
+                var result = diemBLL.GetBangDiem(maHS, namHocStr, hocKyStr);
 
-                if (hocKy == 1)
+                dgvDiemSo.DataSource = result.Diem;
+
+                // ===== Hiển thị điểm TB =====
+                double tong = 0;
+                int dem = 0;
+                foreach (DataRow row in result.Diem.Rows)
                 {
-                    dt.Rows.Add("Toán", 8, 9, 8.5, 8, 8.5, 8.0, 8.4);
-                    dt.Rows.Add("Ngữ văn", 7, 8, 7.5, 7, 7.5, 8, 7.6);
-                    dt.Rows.Add("Anh văn", 9, 8.5, 8.5, 8, 8.5, 8, 8.4);
-                    dt.Rows.Add("Vật lý", 8, 8, 7.5, 8, 8, 8, 7.9);
-                    dt.Rows.Add("Hóa học", 7.5, 8, 8, 8, 8.5, 8, 8.0);
-                    lblDiemTB.Text = "Điểm trung bình học kỳ 1: 8.1";
-                    lblHanhKiem.Text = "Hạnh kiểm học kỳ 1: Tốt";
+                    if (result.Diem.Columns.Contains("Trung bình môn"))
+                    {
+                        double tbm;
+                        if (double.TryParse(row["Trung bình môn"].ToString(), out tbm))
+                        {
+                            tong += tbm;
+                            dem++;
+                        }
+                    }
+                    else if (result.Diem.Columns.Contains("Trung bình cả năm"))
+                    {
+                        double tbn;
+                        if (double.TryParse(row["Trung bình cả năm"].ToString(), out tbn))
+                        {
+                            tong += tbn;
+                            dem++;
+                        }
+                    }
                 }
+
+                double diemTB = dem > 0 ? Math.Round(tong / dem, 2) : 0;
+
+                // ===== Gán label =====
+                if (hocKyStr == "Tất cả")
+                    lblDiemTB.Text = $"Điểm trung bình năm: {diemTB}";
                 else
-                {
-                    dt.Rows.Add("Toán", 7.5, 8, 7.5, 8, 8, 8.5, 7.9);
-                    dt.Rows.Add("Ngữ văn", 7, 7.5, 7, 7, 7.5, 7.5, 7.3);
-                    dt.Rows.Add("Anh văn", 8, 8.5, 8, 8.5, 8.5, 8, 8.3);
-                    dt.Rows.Add("Vật lý", 7.5, 7.8, 8, 7.8, 7.5, 7.8, 7.7);
-                    dt.Rows.Add("Hóa học", 8, 8, 7.5, 8, 8, 8, 7.9);
-                    lblDiemTB.Text = "Điểm trung bình học kỳ 2: 7.8";
-                    lblHanhKiem.Text = "Hạnh kiểm học kỳ 2: Khá";
-                }
+                    lblDiemTB.Text = $"Điểm trung bình {hocKyStr.ToLower()}: {diemTB}";
+
+                lblHanhKiem.Text = $"Hạnh kiểm: {result.HanhKiem}";
             }
-
-            // ====== Gán dữ liệu ======
-            dgvDiemSo.DataSource = dt;
-
-           
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi tải điểm: " + ex.Message);
+            }
         }
     }
 }

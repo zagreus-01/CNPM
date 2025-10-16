@@ -1,50 +1,73 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PJCNPM.DAL
 {
     internal class DBConnection
     {
-        String connectionString = @"Data Source=TUNG;Initial Catalog=PJCNPM;Integrated Security=True";
-        public DataTable GetData(String sql)
+        private readonly string connectionString =
+            @"Data Source=TUNG;Initial Catalog=PJCNPM;Integrated Security=True";
+
+        // 🔹 Lấy dữ liệu (dạng DataTable) - hỗ trợ cả query có tham số
+        public DataTable GetData(string sql, SqlParameter[] parameters = null)
         {
-            try { 
-            SqlConnection conn = new SqlConnection(connectionString);
-            conn.Open();
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            conn.Close();
-            return dt;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    return dt;
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi kết nối cơ sở dữ liệu: " + ex.Message);
+                MessageBox.Show("❌ Lỗi truy vấn dữ liệu: " + ex.Message,
+                    "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
         }
-        public bool ExecuteNonQuery(String sql)
+
+        // 🔹 Thực thi câu lệnh không trả kết quả (INSERT, UPDATE, DELETE)
+        public bool ExecuteNonQuery(string sql, SqlParameter[] parameters = null)
         {
-            try { 
-                SqlConnection conn = new SqlConnection(connectionString);
-                conn.Open();
-                SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.ExecuteNonQuery();
-                conn.Close();
-                return true;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    return true;
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi kết nối cơ sở dữ liệu: " + ex.Message);
+                MessageBox.Show("❌ Lỗi thực thi SQL: " + ex.Message,
+                    "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
+        }
+
+        // 🔹 Nếu bạn vẫn muốn dùng cách cũ (chuỗi trực tiếp)
+        public DataTable GetData(string sql)
+        {
+            return GetData(sql, null);
+        }
+
+        public bool ExecuteNonQuery(string sql)
+        {
+            return ExecuteNonQuery(sql, null);
         }
     }
 }

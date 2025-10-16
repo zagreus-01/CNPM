@@ -290,11 +290,6 @@ namespace PJCNPM.UI.PopUpFrm.AdminPopUp
             this.cboTrangThai.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cboTrangThai.ForeColor = System.Drawing.Color.Black;
             this.cboTrangThai.ItemHeight = 30;
-            this.cboTrangThai.Items.AddRange(new object[] {
-            "Đang học",
-            "Bảo lưu",
-            "Kết thúc",
-            "Đuổi học"});
             this.cboTrangThai.Location = new System.Drawing.Point(170, 455);
             this.cboTrangThai.Name = "cboTrangThai";
             this.cboTrangThai.Size = new System.Drawing.Size(320, 36);

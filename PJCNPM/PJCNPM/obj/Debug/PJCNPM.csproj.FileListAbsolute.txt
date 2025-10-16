@@ -20,3 +20,7 @@ D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.HocSinhPopUp.FrmDoiM
 D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.HocSinhPopUp.FrmYeuCauChinhSuaHocSinh.resources
 D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Controls.AdminControls.HocSinhAdmin.resources
 D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.AdminPopUp.FrmHocSinhEditAdmin.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.AdminPopUp.FrmChuyenLopAdmin.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.AdminPopUp.HocBaAdmin.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Controls.AdminControls.ThongBaoAdmin.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.AdminPopUp.FrmChiTietChinhSua.resources

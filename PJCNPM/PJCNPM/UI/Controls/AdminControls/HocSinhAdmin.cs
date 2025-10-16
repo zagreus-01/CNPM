@@ -2,154 +2,119 @@
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
+using PJCNPM.BLL.Admin;
 using PJCNPM.UI.PopUpFrm.AdminPopUp;
 
 namespace PJCNPM.UI.Controls.AdminControls
 {
     public partial class HocSinhAdmin : UserControl
     {
+        private readonly DocXoaHocSinhBLL bll = new DocXoaHocSinhBLL();
         private DataTable dtHocSinh;
 
         public HocSinhAdmin()
         {
             InitializeComponent();
-            LoadFakeData();
-            
+            LoadData();
         }
 
-        private void LoadFakeData()
+        private void LoadData()
         {
-            dtHocSinh = new DataTable();
-            dtHocSinh.Columns.Add("HocSinhID", typeof(int));
-            dtHocSinh.Columns.Add("HoTen", typeof(string));
-            dtHocSinh.Columns.Add("Lop", typeof(string));
-            dtHocSinh.Columns.Add("NamHoc", typeof(string));
-            dtHocSinh.Columns.Add("HocKy", typeof(string));
-            dtHocSinh.Columns.Add("TrangThai", typeof(string));
+            bool hienThiDaKetThuc = chkDaKetThuc.Checked;
 
-            dtHocSinh.Rows.Add(1, "Nguyễn Văn A", "10A1", "2024-2025", "1", "Đang học");
-            dtHocSinh.Rows.Add(2, "Trần Thị B", "10A2", "2024-2025", "1", "Đang học");
-            dtHocSinh.Rows.Add(3, "Phạm Minh C", "11A1", "2023-2024", "2", "Đã kết thúc");
+            // ✅ Luôn tải toàn bộ học sinh (không lọc lớp đã kết thúc)
+            dtHocSinh = bll.LayTatCaHocSinh(hienThiDaKetThuc);
 
             dgvHocSinh.DataSource = dtHocSinh;
+
+            // ✅ Load combobox lớp (lọc theo checkbox)
             cboLop.Items.Clear();
             cboLop.Items.Add("Tất cả");
-            foreach (var lop in dtHocSinh.AsEnumerable().Select(r => r["Lop"].ToString()).Distinct())
-                cboLop.Items.Add(lop);
+
+            DataTable dtLop = bll.LayDanhSachLop(hienThiDaKetThuc);
+            foreach (DataRow row in dtLop.Rows)
+                cboLop.Items.Add(row["TenLop"].ToString());
+
             cboLop.SelectedIndex = 0;
         }
-
 
         private void btnThem_Click(object sender, EventArgs e)
         {
             new FrmHocSinhEditAdmin().ShowDialog();
+            LoadData();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            new FrmHocSinhEditAdmin(1).ShowDialog();
+            if (dgvHocSinh.CurrentRow == null) return;
+            int id = Convert.ToInt32(dgvHocSinh.CurrentRow.Cells["HocSinhID"].Value);
+            new FrmHocSinhEditAdmin(id).ShowDialog();
+            LoadData();
         }
 
         private void btnChuyenLop_Click(object sender, EventArgs e)
         {
             if (dgvHocSinh.CurrentRow == null) return;
-            string ten = dgvHocSinh.CurrentRow.Cells["HoTen"].Value.ToString();
-            MessageBox.Show($"Chuyển lớp cho {ten} (FrmChuyenLopHocSinh).");
+            int id = Convert.ToInt32(dgvHocSinh.CurrentRow.Cells["HocSinhID"].Value);
+            new FrmChuyenLopAdmin(id).ShowDialog();
+            LoadData();
         }
 
         private void btnHocBa_Click(object sender, EventArgs e)
         {
             if (dgvHocSinh.CurrentRow == null) return;
-            string ten = dgvHocSinh.CurrentRow.Cells["HoTen"].Value.ToString();
-            MessageBox.Show($"Hiển thị học bạ của {ten}.");
+            int hocSinhID = Convert.ToInt32(dgvHocSinh.CurrentRow.Cells["HocSinhID"].Value);
+            using (var frm = new HocBaAdmin(hocSinhID))
+            {
+                frm.ShowDialog();
+            }
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
             if (dgvHocSinh.CurrentRow == null) return;
-            int id = (int)dgvHocSinh.CurrentRow.Cells["HocSinhID"].Value;
+            int id = Convert.ToInt32(dgvHocSinh.CurrentRow.Cells["HocSinhID"].Value);
             string ten = dgvHocSinh.CurrentRow.Cells["HoTen"].Value.ToString();
 
-            var confirm = MessageBox.Show($"Bạn có chắc muốn xóa học sinh {ten} cùng dữ liệu liên quan?",
-                "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-
-            if (confirm == DialogResult.Yes)
+            if (MessageBox.Show($"Bạn có chắc muốn xóa học sinh {ten}?", "Xác nhận",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                var row = dtHocSinh.AsEnumerable().FirstOrDefault(r => (int)r["HocSinhID"] == id);
-                if (row != null) row.Delete();
-                MessageBox.Show($"Đã xóa học sinh {ten}.");
+                if (bll.XoaHocSinh(id))
+                {
+                    MessageBox.Show($"Đã xóa học sinh {ten}.");
+                    LoadData();
+                }
             }
         }
 
-        private void btnLoc_Click(object sender, EventArgs e)
+        private void LocDuLieu()
         {
-            string tuKhoa = txtTimKiem.Text.Trim().ToLower();
-            bool hienThiDaKetThuc = chkDaKetThuc.Checked;
+            string tuKhoa = txtTimKiem.Text.Trim();
             string lopChon = cboLop.SelectedItem?.ToString() ?? "Tất cả";
+            bool hienThiDaKetThuc = chkDaKetThuc.Checked;
 
-            var filtered = dtHocSinh.AsEnumerable()
-                .Where(r =>
-                    (lopChon == "Tất cả" || r["Lop"].ToString() == lopChon) &&
-                    (hienThiDaKetThuc || r["TrangThai"].ToString() != "Đã kết thúc") &&
-                    (r["HoTen"].ToString().ToLower().Contains(tuKhoa))
-                );
-
-            dgvHocSinh.DataSource = filtered.Any() ? filtered.CopyToDataTable() : dtHocSinh.Clone();
+            dgvHocSinh.DataSource = bll.LocHocSinh(dtHocSinh, tuKhoa, lopChon, hienThiDaKetThuc);
         }
 
-        private void txtTimKiem_TextChanged(object sender, EventArgs e)
-        {
-            string tuKhoa = txtTimKiem.Text.Trim().ToLower();
-            bool hienThiDaKetThuc = chkDaKetThuc.Checked;
-            string lopChon = cboLop.SelectedItem?.ToString() ?? "Tất cả";
-
-            var filtered = dtHocSinh.AsEnumerable()
-                .Where(r =>
-                    (lopChon == "Tất cả" || r["Lop"].ToString() == lopChon) &&
-                    (hienThiDaKetThuc || r["TrangThai"].ToString() != "Đã kết thúc") &&
-                    (r["HoTen"].ToString().ToLower().Contains(tuKhoa))
-                );
-
-            dgvHocSinh.DataSource = filtered.Any() ? filtered.CopyToDataTable() : dtHocSinh.Clone();
-        }
+        private void btnLoc_Click(object sender, EventArgs e) => LocDuLieu();
+        private void txtTimKiem_TextChanged(object sender, EventArgs e) => LocDuLieu();
 
         private void chkDaKetThuc_CheckedChanged(object sender, EventArgs e)
         {
-            string tuKhoa = txtTimKiem.Text.Trim().ToLower();
-            bool hienThiDaKetThuc = chkDaKetThuc.Checked;
-            string lopChon = cboLop.SelectedItem?.ToString() ?? "Tất cả";
-
-            var filtered = dtHocSinh.AsEnumerable()
-                .Where(r =>
-                    (lopChon == "Tất cả" || r["Lop"].ToString() == lopChon) &&
-                    (hienThiDaKetThuc || r["TrangThai"].ToString() != "Đã kết thúc") &&
-                    (r["HoTen"].ToString().ToLower().Contains(tuKhoa))
-                );
-
-            dgvHocSinh.DataSource = filtered.Any() ? filtered.CopyToDataTable() : dtHocSinh.Clone();
+            // ✅ Reload để làm mới combobox lớp, không ảnh hưởng danh sách học sinh
+            LoadData();
+            LocDuLieu();
         }
 
+        private void cboLop_SelectedIndexChanged(object sender, EventArgs e) => LocDuLieu();
         private void dgvHocSinh_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dgvHocSinh.CurrentRow == null) return;
-            string ten = dgvHocSinh.CurrentRow.Cells["HoTen"].Value.ToString();
-            MessageBox.Show($"Hiển thị học bạ của {ten}.");
-        }
-
-        private void cboLop_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string tuKhoa = txtTimKiem.Text.Trim().ToLower();
-            bool hienThiDaKetThuc = chkDaKetThuc.Checked;
-            string lopChon = cboLop.SelectedItem?.ToString() ?? "Tất cả";
-
-            var filtered = dtHocSinh.AsEnumerable()
-                .Where(r =>
-                    (lopChon == "Tất cả" || r["Lop"].ToString() == lopChon) &&
-                    (hienThiDaKetThuc || r["TrangThai"].ToString() != "Đã kết thúc") &&
-                    (r["HoTen"].ToString().ToLower().Contains(tuKhoa))
-                );
-
-            dgvHocSinh.DataSource = filtered.Any() ? filtered.CopyToDataTable() : dtHocSinh.Clone();
+            int hocSinhID = Convert.ToInt32(dgvHocSinh.CurrentRow.Cells["HocSinhID"].Value);
+            using (var frm = new HocBaAdmin(hocSinhID))
+            {
+                frm.ShowDialog();
+            }
         }
     }
 }

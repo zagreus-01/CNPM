@@ -108,11 +108,13 @@ namespace PJCNPM.UI.MainFrm
         private void btnThongBao_Click(object sender, EventArgs e)
         {
             HighlightButton(btnThongBao);
+            LoadControl(new ThongBaoAdmin());
         }
 
         private void btnXetDuyet_Click(object sender, EventArgs e)
         {
             HighlightButton(btnXetDuyet);
+            LoadControl(new XetDuyetAdmin());
         }
 
         private void btnDanhSachTaiKhoan_Click(object sender, EventArgs e)

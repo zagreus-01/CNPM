@@ -18,7 +18,7 @@ namespace PJCNPM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Admin());
+            Application.Run(new Login());
         }
     }
 }
