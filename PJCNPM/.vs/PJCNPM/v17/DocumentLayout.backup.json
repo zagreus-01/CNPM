@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\huong giang\\downloads\\cnpm-main\\pjcnpm\\pjcnpm\\ui\\mainfrm\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\pjcnpm\\ui\\mainfrm\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\pjcnpm\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\pjcnpm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\pjcnpm\\ui\\popupfrm\\nhanvienpopup\\khothietbiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pjcnpm\\ui\\popupfrm\\nhanvienpopup\\khothietbiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\BLL\\NhanVienBLL\\ThietBiBLL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PJCNPM\\BLL\\NhanVienBLL\\ThietBiBLL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\BLL\\NhanVienBLL\\PhongHocBLL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PJCNPM\\BLL\\NhanVienBLL\\PhongHocBLL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\BLL\\NhanVienBLL\\ThietBiPhongHocBLL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PJCNPM\\BLL\\NhanVienBLL\\ThietBiPhongHocBLL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\pjcnpm\\ui\\controls\\nhanviencontrols\\quanlythietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pjcnpm\\ui\\controls\\nhanviencontrols\\quanlythietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\pjcnpm\\ui\\controls\\nhanviencontrols\\quanlyphonghoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pjcnpm\\ui\\controls\\nhanviencontrols\\quanlyphonghoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\pjcnpm\\ui\\controls\\nhanviencontrols\\thietbiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pjcnpm\\ui\\controls\\nhanviencontrols\\thietbiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThietBiPhong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.Designer.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.Designer.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.Designer.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.Designer.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T13:32:19.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KhoThietBiForm.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T11:03:36.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KhoThietBiForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\NhanVienPopUp\\KhoThietBiForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:59:35.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThietBiBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\BLL\\NhanVienBLL\\ThietBiBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\NhanVienBLL\\ThietBiBLL.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\BLL\\NhanVienBLL\\ThietBiBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\NhanVienBLL\\ThietBiBLL.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAswEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T07:08:32.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PhongHocBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\BLL\\NhanVienBLL\\PhongHocBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\NhanVienBLL\\PhongHocBLL.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\BLL\\NhanVienBLL\\PhongHocBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\NhanVienBLL\\PhongHocBLL.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDIAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:40:38.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ThietBiPhongHocBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\BLL\\NhanVienBLL\\ThietBiPhongHocBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\NhanVienBLL\\ThietBiPhongHocBLL.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\BLL\\NhanVienBLL\\ThietBiPhongHocBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\NhanVienBLL\\ThietBiPhongHocBLL.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwv0IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:44:14.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuanLyThietBi.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:12:22.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuanLyPhongHoc.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T23:35:42.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ThietBiPhong.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T00:51:48.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuanLyThietBi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyThietBi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:05:01.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuanLyPhongHoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\NhanVienControls\\QuanLyPhongHoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T16:09:26.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ThietBiPhong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\NhanVienControls\\ThietBiPhong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T16:09:47.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAWwEcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:01:58.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\Program.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\Program.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\Program.cs",
+              "RelativeToolTip": "PJCNPM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T02:03:43.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\UI\\MainFrm\\Admin.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:51:17.802Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\DAL\\DBConnection.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\DAL\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\Huong Giang\\Downloads\\CNPM-main\\PJCNPM\\PJCNPM\\DAL\\DBConnection.cs",
+              "RelativeToolTip": "PJCNPM\\DAL\\DBConnection.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:39:55.983Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

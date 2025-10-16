@@ -1,0 +1,39 @@
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.csproj.AssemblyReference.cache
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.Properties.Resources.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.csproj.GenerateResource.cache
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.csproj.CoreCompileInputs.cache
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\bin\Debug\PJCNPM.exe.config
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\bin\Debug\PJCNPM.exe
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\bin\Debug\PJCNPM.pdb
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\bin\Debug\Guna.UI2.dll
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.csproj.Up2Date
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.exe
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.pdb
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.exe.config
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.MainFrm.Admin.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.MainFrm.HocSinh.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Controls.HocSinhControls.ThongTinHocSinh.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Controls.HocSinhControls.ThongBaoHocSinh.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Controls.HocSinhControls.DiemSoHocSinh.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Controls.HocSinhControls.TaiKhoanHocSinh.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.HocSinhPopUp.FrmDoiMatKhauHocSinh.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.HocSinhPopUp.FrmYeuCauChinhSuaHocSinh.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Controls.AdminControls.HocSinhAdmin.resources
+D:\Ki1_Nam3\CNpm\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.AdminPopUp.FrmHocSinhEditAdmin.resources
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.csproj.AssemblyReference.cache
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.exe.config
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Controls.NhanVienControls.QuanLyPhongHoc.resources
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Controls.NhanVienControls.QuanLyThietBi.resources
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.Control.ControlNhanVien.ThietBiPhong.resources
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.Properties.Resources.resources
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.csproj.GenerateResource.cache
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.csproj.CoreCompileInputs.cache
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.exe
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.pdb
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\bin\Debug\PJCNPM.exe.config
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\bin\Debug\PJCNPM.exe
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\bin\Debug\PJCNPM.pdb
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\bin\Debug\Guna.UI2.dll
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.csproj.Up2Date
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.NhanVienPopUp.KhoThietBiForm.resources
+C:\Users\Huong Giang\Downloads\CNPM-main\PJCNPM\PJCNPM\obj\Debug\PJCNPM.UI.MainFrm.Admin.resources
