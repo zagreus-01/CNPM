@@ -8,7 +8,7 @@ namespace PJCNPM.DAL.HocSinh
     {
         private readonly DBConnection db = new DBConnection();
 
-        // 🔹 Lấy danh sách thông báo cho học sinh
+        // 🔹 Lấy danh sách thông báo cho học sinh (có tên giáo viên gửi)
         public DataTable LayDanhSachThongBao(int hocSinhID)
         {
             string sql = @"
@@ -20,7 +20,7 @@ namespace PJCNPM.DAL.HocSinh
                 FROM dbo.HocSinh_Lop AS hl
                 INNER JOIN dbo.Lop AS l ON hl.LopID = l.LopID
                 WHERE hl.HocSinhID = @HocSinhID 
-                  AND l.DaKetThuc = 0;
+                  AND ISNULL(l.DaKetThuc, 0) = 0;
 
                 -- ✅ Lấy danh sách thông báo liên quan
                 SELECT 
@@ -30,14 +30,14 @@ namespace PJCNPM.DAL.HocSinh
                     tb.NgayGui,
                     CASE 
                         WHEN tb.LoaiNguoiGui = 1 THEN N'Nhà trường'
-                        WHEN tb.LoaiNguoiGui = 2 THEN gv.HoTen
+                        WHEN tb.LoaiNguoiGui = 3 THEN ISNULL(gv.HoTen, N'Giáo viên')
                         ELSE N'Không xác định'
                     END AS NguoiGui
                 FROM dbo.ThongBao AS tb
                 INNER JOIN dbo.ThongBao_NguoiNhan AS tbn 
                     ON tb.ThongBaoID = tbn.ThongBaoID
                 LEFT JOIN dbo.GiaoVien AS gv 
-                    ON TRY_CAST(tb.NguoiGuiID AS INT) = gv.GiaoVienID
+                    ON tb.NguoiGuiID = gv.TenTK  -- ✅ Khớp theo TenTK, không cần ép INT
                 WHERE
                     (tbn.LoaiNguoiNhan = -1 AND tbn.NguoiNhanID = 'ALL')
                     OR (tbn.LoaiNguoiNhan = 1 AND tbn.NguoiNhanID = @LopID)
@@ -47,6 +47,5 @@ namespace PJCNPM.DAL.HocSinh
             SqlParameter[] prms = { new SqlParameter("@HocSinhID", hocSinhID) };
             return db.GetData(sql, prms);
         }
-        
     }
 }

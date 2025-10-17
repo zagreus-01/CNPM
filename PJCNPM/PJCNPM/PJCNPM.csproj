@@ -58,12 +58,26 @@
   <ItemGroup>
     <Compile Include="BLL\Admin\ChiTietChinhSuaBLL.cs" />
     <Compile Include="BLL\Admin\ChuyenLopHocSinhBLL.cs" />
+    <Compile Include="BLL\Admin\CRUDGiaoVienBLL.cs" />
+    <Compile Include="BLL\Admin\DiemSoAdminBLL.cs" />
     <Compile Include="BLL\Admin\DocXoaHocSinhBLL.cs" />
     <Compile Include="BLL\Admin\HocBaBLL.cs" />
+    <Compile Include="BLL\Admin\HocSInhXemBLL.cs" />
+    <Compile Include="BLL\Admin\LopHocBLL.cs" />
     <Compile Include="BLL\Admin\NguoiNhanBLL.cs" />
+    <Compile Include="BLL\Admin\PhongHocBLL.cs" />
     <Compile Include="BLL\Admin\SaveHocSinhBLL.cs" />
+    <Compile Include="BLL\Admin\SaveLopBLL.cs" />
+    <Compile Include="BLL\Admin\ThietBiBLL.cs" />
+    <Compile Include="BLL\Admin\ThietBiPhongHocBLL.cs" />
     <Compile Include="BLL\Admin\ThongBaoBLL.cs" />
     <Compile Include="BLL\Admin\XetDuyetBLL.cs" />
+    <Compile Include="BLL\Giaovien\DiemSoBLL.cs" />
+    <Compile Include="BLL\Giaovien\GiaoVienBLL.cs" />
+    <Compile Include="BLL\Giaovien\PhongHocBLL.cs" />
+    <Compile Include="BLL\Giaovien\TaiKhoanBLL.cs" />
+    <Compile Include="BLL\Giaovien\ThongBaoBLL.cs" />
+    <Compile Include="BLL\Giaovien\YeuCauChinhSua.cs" />
     <Compile Include="BLL\HocSinh\DiemHocSinhBLL.cs" />
     <Compile Include="BLL\HocSinh\TaiKhoanHocSinhBLL.cs" />
     <Compile Include="BLL\HocSinh\ThongBaoHocSinhBLL.cs" />
@@ -73,8 +87,11 @@
     <Compile Include="DAL\Admin\ChuyenLopHocSinhDAL.cs" />
     <Compile Include="DAL\Admin\DocXoaHocSinhDAL.cs" />
     <Compile Include="DAL\Admin\HocBaAdminDAL.cs" />
+    <Compile Include="DAL\Admin\HocSinhXemDAL.cs" />
+    <Compile Include="DAL\Admin\LopHocDAL.cs" />
     <Compile Include="DAL\Admin\NguoiNhanDAL.cs" />
     <Compile Include="DAL\Admin\SaveHocSinhDAL.cs" />
+    <Compile Include="DAL\Admin\SaveLopDAL.cs" />
     <Compile Include="DAL\Admin\ThongBaoDAL.cs" />
     <Compile Include="DAL\Admin\XetDuyetDAL.cs" />
     <Compile Include="DAL\DBConnection.cs" />
@@ -83,11 +100,57 @@
     <Compile Include="DAL\HocSinh\ThongBaoHocSinhDAL.cs" />
     <Compile Include="DAL\HocSinh\ThongTinHocSinhDAL.cs" />
     <Compile Include="DAL\TaiKhoanDAL.cs" />
+    <Compile Include="Mod\GiaoVien.cs" />
+    <Compile Include="Mod\HocSinh.cs" />
+    <Compile Include="Mod\HocSinh_Lop.cs" />
+    <Compile Include="Mod\Lop.cs" />
+    <Compile Include="Mod\MonHoc.cs" />
+    <Compile Include="Mod\PhanCongDay.cs" />
+    <Compile Include="Mod\Role.cs" />
+    <Compile Include="Mod\TaiKhoan.cs" />
+    <Compile Include="Mod\ThoiKhoaBieu.cs" />
+    <Compile Include="Mod\ThongTinNghiepVuGV.cs" />
+    <Compile Include="UI\Controls\AdminControls\GiaoVienAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\GiaoVienAdmin.Designer.cs">
+      <DependentUpon>GiaoVienAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Controls\AdminControls\HocSinhAdmin.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UI\Controls\AdminControls\HocSinhAdmin.Designer.cs">
       <DependentUpon>HocSinhAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\LopAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\LopAdmin.Designer.cs">
+      <DependentUpon>LopAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\NhapDiemAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\NhapDiemAdmin.Designer.cs">
+      <DependentUpon>NhapDiemAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\QuanLyPhongHoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\QuanLyPhongHoc.Designer.cs">
+      <DependentUpon>QuanLyPhongHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\QuanLyThietBi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\QuanLyThietBi.Designer.cs">
+      <DependentUpon>QuanLyThietBi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\ThietBiPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\ThietBiPhong.Designer.cs">
+      <DependentUpon>ThietBiPhong.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Controls\AdminControls\ThongBaoAdmin.cs">
       <SubType>UserControl</SubType>
@@ -100,6 +163,36 @@
     </Compile>
     <Compile Include="UI\Controls\AdminControls\XetDuyetAdmin.Designer.cs">
       <DependentUpon>XetDuyetAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\DangKyPhongHoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\DangKyPhongHoc.Designer.cs">
+      <DependentUpon>DangKyPhongHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\NhapDiemGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\NhapDiemGiaoVien.Designer.cs">
+      <DependentUpon>NhapDiemGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\TaiKhoanGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\TaiKhoanGiaoVien.Designer.cs">
+      <DependentUpon>TaiKhoanGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThongBaoGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThongBaoGiaoVien.Designer.cs">
+      <DependentUpon>ThongBaoGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThongTinGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThongTinGiaoVien.Designer.cs">
+      <DependentUpon>ThongTinGiaoVien.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Controls\HocSinhControls\DiemSoHocSinh.cs">
       <SubType>UserControl</SubType>
@@ -133,6 +226,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\MainFrm\GiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainFrm\GiaoVien.Designer.cs">
+      <DependentUpon>GiaoVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\MainFrm\HocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,11 +256,29 @@
     <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.Designer.cs">
       <DependentUpon>FrmChuyenLopAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmGiaoVienEditAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmGiaoVienEditAdmin.Designer.cs">
+      <DependentUpon>FrmGiaoVienEditAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhEditAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhEditAdmin.Designer.cs">
       <DependentUpon>FrmHocSinhEditAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhXemAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhXemAdmin.Designer.cs">
+      <DependentUpon>FrmHocSinhXemAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmSaveLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmSaveLop.Designer.cs">
+      <DependentUpon>FrmSaveLop.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\PopUpFrm\AdminPopUp\FrmThongBaoAdmin.cs">
       <SubType>Form</SubType>
@@ -174,6 +291,36 @@
     </Compile>
     <Compile Include="UI\PopUpFrm\AdminPopUp\HocBaAdmin.Designer.cs">
       <DependentUpon>HocBaAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\KhoThietBiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\KhoThietBiForm.Designer.cs">
+      <DependentUpon>KhoThietBiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmDangKyChiTiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmDangKyChiTiet.Designer.cs">
+      <DependentUpon>FrmDangKyChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmDoiMatKhauGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmDoiMatKhauGiaoVien.Designer.cs">
+      <DependentUpon>FrmDoiMatKhauGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmSoanThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmSoanThongBao.Designer.cs">
+      <DependentUpon>FrmSoanThongBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmYeuCauChinhSuaGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmYeuCauChinhSuaGiaoVien.Designer.cs">
+      <DependentUpon>FrmYeuCauChinhSuaGiaoVien.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\PopUpFrm\HocSinhPopUp\FrmDoiMatKhauHocSinh.cs">
       <SubType>Form</SubType>
@@ -194,11 +341,41 @@
       <DependentUpon>FrmYeuCauChinhSuaHocSinh.cs</DependentUpon>
     </Compile>
     <Compile Include="Utils\EnumHelper.cs" />
+    <EmbeddedResource Include="UI\Controls\AdminControls\GiaoVienAdmin.resx">
+      <DependentUpon>GiaoVienAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Controls\AdminControls\HocSinhAdmin.resx">
       <DependentUpon>HocSinhAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\LopAdmin.resx">
+      <DependentUpon>LopAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\NhapDiemAdmin.resx">
+      <DependentUpon>NhapDiemAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\QuanLyPhongHoc.resx">
+      <DependentUpon>QuanLyPhongHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\QuanLyThietBi.resx">
+      <DependentUpon>QuanLyThietBi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\ThietBiPhong.resx">
+      <DependentUpon>ThietBiPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Controls\AdminControls\ThongBaoAdmin.resx">
       <DependentUpon>ThongBaoAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Giaoviencontrols\DangKyPhongHoc.resx">
+      <DependentUpon>DangKyPhongHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Giaoviencontrols\TaiKhoanGiaoVien.resx">
+      <DependentUpon>TaiKhoanGiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Giaoviencontrols\ThongBaoGiaoVien.resx">
+      <DependentUpon>ThongBaoGiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Giaoviencontrols\ThongTinGiaoVien.resx">
+      <DependentUpon>ThongTinGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Controls\HocSinhControls\DiemSoHocSinh.resx">
       <DependentUpon>DiemSoHocSinh.cs</DependentUpon>
@@ -225,6 +402,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UI\MainFrm\GiaoVien.resx">
+      <DependentUpon>GiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\MainFrm\HocSinh.resx">
       <DependentUpon>HocSinh.cs</DependentUpon>
     </EmbeddedResource>
@@ -234,11 +414,23 @@
     <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.resx">
       <DependentUpon>FrmChuyenLopAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmGiaoVienEditAdmin.resx">
+      <DependentUpon>FrmGiaoVienEditAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhEditAdmin.resx">
       <DependentUpon>FrmHocSinhEditAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\HocBaAdmin.resx">
       <DependentUpon>HocBaAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\KhoThietBiForm.resx">
+      <DependentUpon>KhoThietBiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\Giaovienpopup\FrmDangKyChiTiet.resx">
+      <DependentUpon>FrmDangKyChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\Giaovienpopup\FrmYeuCauChinhSuaGiaoVien.resx">
+      <DependentUpon>FrmYeuCauChinhSuaGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PopUpFrm\HocSinhPopUp\FrmDoiMatKhauHocSinh.resx">
       <DependentUpon>FrmDoiMatKhauHocSinh.cs</DependentUpon>

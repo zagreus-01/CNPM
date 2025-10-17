@@ -59,15 +59,97 @@ namespace PJCNPM.DAL
             }
         }
 
-        // 🔹 Nếu bạn vẫn muốn dùng cách cũ (chuỗi trực tiếp)
-        public DataTable GetData(string sql)
+        public bool ExecuteNonQuery(string procName, CommandType cmdType, SqlParameter[] parameters = null)
         {
-            return GetData(sql, null);
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                using (SqlCommand cmd = new SqlCommand(procName, conn))
+                {
+                    cmd.CommandType = cmdType;
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi thực thi Stored Procedure: " + ex.Message);
+                return false;
+            }
+        }
+         public DataTable GetData(string procName, CommandType cmdType, SqlParameter[] parameters = null)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                using (SqlCommand cmd = new SqlCommand(procName, conn))
+                {
+                    cmd.CommandType = cmdType;
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    return dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi truy vấn dữ liệu: " + ex.Message);
+                return null;
+            }
+        }
+        public int ExecuteNonQuery_ReturnRowsAffected(string sql, params SqlParameter[] parameters)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    conn.Open();
+                    if (parameters != null && parameters.Length > 0)
+                        cmd.Parameters.AddRange(parameters);
+
+                    return cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi thực thi câu lệnh: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return -1; // Trả về -1 nếu có lỗi
+            }
         }
 
-        public bool ExecuteNonQuery(string sql)
+        // Phương thức này giữ nguyên
+        public object ExecuteScalar(string sql, params SqlParameter[] parameters)
         {
-            return ExecuteNonQuery(sql, null);
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    conn.Open();
+                    if (parameters != null && parameters.Length > 0)
+                        cmd.Parameters.AddRange(parameters);
+                    return cmd.ExecuteScalar();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi thực thi câu lệnh: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
+        }
+        // 🔹 Thực thi câu lệnh SQL với 1 tham số duy nhất
+       
+        public SqlConnection GetSqlConnection()
+        {
+            return new SqlConnection(connectionString);
         }
     }
 }

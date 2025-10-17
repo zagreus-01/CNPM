@@ -111,7 +111,7 @@ namespace PJCNPM.UI.Controls.AdminControls
         {
             if (dgvHocSinh.CurrentRow == null) return;
             int hocSinhID = Convert.ToInt32(dgvHocSinh.CurrentRow.Cells["HocSinhID"].Value);
-            using (var frm = new HocBaAdmin(hocSinhID))
+            using (var frm = new FrmHocSinhXemAdmin(hocSinhID))
             {
                 frm.ShowDialog();
             }

@@ -83,16 +83,19 @@ namespace PJCNPM.UI.MainFrm
         private void btnDiemSo_Click(object sender, EventArgs e)
         {
             HighlightButton(btnDiemSo);
+            LoadControl(new NhapDiemAdmin());
         }
 
         private void btnGiaoVien_Click(object sender, EventArgs e)
         {
             HighlightButton(btnGiaoVien);
+            LoadControl(new GiaoVienAdmin());
         }
 
         private void btnLopHoc_Click(object sender, EventArgs e)
         {
             HighlightButton(btnLopHoc);
+            LoadControl(new LopAdmin());
         }
 
         private void btnMonHoc_Click(object sender, EventArgs e)
@@ -151,6 +154,30 @@ namespace PJCNPM.UI.MainFrm
                 sidebar.Width = 0;
                 isSidebarCollapsed = true;
             }
+        }
+
+        private void btnQuanLyThietBi_Click(object sender, EventArgs e)
+        {
+            HighlightButton(btnQuanLyThietBi);
+            LoadControl(new QuanLyThietBi());
+        }
+
+        private void btnQuanLyPhongHoc_Click(object sender, EventArgs e)
+        {
+            HighlightButton(btnQuanLyPhongHoc);
+            LoadControl(new QuanLyPhongHoc());
+        }
+
+        private void btnThietBiPhong_Click(object sender, EventArgs e)
+        {
+            HighlightButton(btnThietBiPhong);
+            LoadControl(new ThietBiPhong());
+        }
+
+        private void btnTKB_Click(object sender, EventArgs e)
+        {
+            HighlightButton(btnTKB);
+
         }
     }
 }
