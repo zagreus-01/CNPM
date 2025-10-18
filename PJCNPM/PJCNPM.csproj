@@ -58,12 +58,13 @@
   <ItemGroup>
     <Compile Include="BLL\Admin\ChiTietChinhSuaBLL.cs" />
     <Compile Include="BLL\Admin\ChuyenLopHocSinhBLL.cs" />
+    <Compile Include="BLL\Admin\ChuyenToanBoBLL.cs" />
     <Compile Include="BLL\Admin\CRUDGiaoVienBLL.cs" />
     <Compile Include="BLL\Admin\DangKyPhongBLL.cs" />
     <Compile Include="BLL\Admin\DiemSoAdminBLL.cs" />
     <Compile Include="BLL\Admin\DocXoaHocSinhBLL.cs" />
     <Compile Include="BLL\Admin\HocBaBLL.cs" />
-    <Compile Include="BLL\Admin\HocSInhXemBLL.cs" />
+    <Compile Include="BLL\Admin\HocSinhXemBLL.cs" />
     <Compile Include="BLL\Admin\LopHocBLL.cs" />
     <Compile Include="BLL\Admin\MonHocBLL.cs" />
     <Compile Include="BLL\Admin\NguoiNhanBLL.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="BLL\TaiKhoanBLL.cs" />
     <Compile Include="DAL\Admin\ChiTietChinhSuaDAL.cs" />
     <Compile Include="DAL\Admin\ChuyenLopHocSinhDAL.cs" />
+    <Compile Include="DAL\Admin\ChuyenToanBoDAL.cs" />
     <Compile Include="DAL\Admin\DBconnection.cs" />
     <Compile Include="DAL\Admin\DocXoaHocSinhDAL.cs" />
     <Compile Include="DAL\Admin\GiaoVienDB.cs" />
@@ -333,6 +335,12 @@
     <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.Designer.cs">
       <DependentUpon>FrmChuyenLopAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChuyenToanBoLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChuyenToanBoLop.Designer.cs">
+      <DependentUpon>FrmChuyenToanBoLop.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\PopUpFrm\AdminPopUp\FrmDangKyChiTietAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -529,6 +537,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.resx">
       <DependentUpon>FrmChuyenLopAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmChuyenToanBoLop.resx">
+      <DependentUpon>FrmChuyenToanBoLop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmDangKyChiTietAdmin.resx">
       <DependentUpon>FrmDangKyChiTietAdmin.cs</DependentUpon>

@@ -174,3 +174,4 @@ C:\Users\ptung\OneDrive\Desktop\CNPM-hao\CNPM\PJCNPM\bin\Debug\PJCNPM.exe
 C:\Users\ptung\OneDrive\Desktop\CNPM-hao\CNPM\PJCNPM\bin\Debug\PJCNPM.pdb
 C:\Users\ptung\OneDrive\Desktop\CNPM-hao\CNPM\PJCNPM\bin\Debug\Guna.UI2.dll
 C:\Users\ptung\OneDrive\Desktop\CNPM-hao\CNPM\PJCNPM\obj\Debug\PJCNPM.csproj.Up2Date
+C:\Users\ptung\OneDrive\Desktop\CNPM-hao\CNPM\PJCNPM\obj\Debug\PJCNPM.UI.PopUpFrm.AdminPopUp.FrmChuyenToanBoLop.resources

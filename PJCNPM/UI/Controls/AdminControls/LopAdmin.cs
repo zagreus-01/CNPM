@@ -94,7 +94,14 @@ namespace PJCNPM.UI.Controls.AdminControls
 
         private void btnChuyenHocSinh_Click(object sender, EventArgs e)
         {
-           
+            if(dgvLop.CurrentRow != null)
+            {
+                new FrmChuyenToanBoLop(
+                    Convert.ToInt32(dgvLop.CurrentRow.Cells["LopID"].Value),
+                    dgvLop.CurrentRow.Cells["TenLop"].Value.ToString()
+                ).ShowDialog();
+            }
+                
         }
 
         private void dgvLop_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
