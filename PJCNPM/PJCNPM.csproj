@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PJCNPM</RootNamespace>
+    <AssemblyName>PJCNPM</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Admin\ChiTietChinhSuaBLL.cs" />
+    <Compile Include="BLL\Admin\ChuyenLopHocSinhBLL.cs" />
+    <Compile Include="BLL\Admin\CRUDGiaoVienBLL.cs" />
+    <Compile Include="BLL\Admin\DangKyPhongBLL.cs" />
+    <Compile Include="BLL\Admin\DiemSoAdminBLL.cs" />
+    <Compile Include="BLL\Admin\DocXoaHocSinhBLL.cs" />
+    <Compile Include="BLL\Admin\HocBaBLL.cs" />
+    <Compile Include="BLL\Admin\HocSInhXemBLL.cs" />
+    <Compile Include="BLL\Admin\LopHocBLL.cs" />
+    <Compile Include="BLL\Admin\MonHocBLL.cs" />
+    <Compile Include="BLL\Admin\NguoiNhanBLL.cs" />
+    <Compile Include="BLL\Admin\PhanCongBLL.cs" />
+    <Compile Include="BLL\Admin\PhongHocAdminBLL.cs" />
+    <Compile Include="BLL\Admin\PhongHocBLL.cs" />
+    <Compile Include="BLL\Admin\SaveHocSinhBLL.cs" />
+    <Compile Include="BLL\Admin\SaveLopBLL.cs" />
+    <Compile Include="BLL\Admin\TaiKhoanBLL.cs" />
+    <Compile Include="BLL\Admin\ThietBiBLL.cs" />
+    <Compile Include="BLL\Admin\ThietBiPhongHocBLL.cs" />
+    <Compile Include="BLL\Admin\ThoiKhoaBieuBLL.cs" />
+    <Compile Include="BLL\Admin\ThongBaoBLL.cs" />
+    <Compile Include="BLL\Admin\XetDuyetBLL.cs" />
+    <Compile Include="BLL\Giaovien\DiemSoBLL.cs" />
+    <Compile Include="BLL\Giaovien\GiaoVienBLL.cs" />
+    <Compile Include="BLL\Giaovien\PhongHocBLL.cs" />
+    <Compile Include="BLL\Giaovien\TaiKhoanBLL.cs" />
+    <Compile Include="BLL\Giaovien\ThongBaoBLL.cs" />
+    <Compile Include="BLL\Giaovien\YeuCauChinhSua.cs" />
+    <Compile Include="BLL\HocSinh\DiemHocSinhBLL.cs" />
+    <Compile Include="BLL\HocSinh\TaiKhoanHocSinhBLL.cs" />
+    <Compile Include="BLL\HocSinh\ThongBaoHocSinhBLL.cs" />
+    <Compile Include="BLL\HocSinh\ThongTinHocSinhBLL.cs" />
+    <Compile Include="BLL\TaiKhoanBLL.cs" />
+    <Compile Include="DAL\Admin\ChiTietChinhSuaDAL.cs" />
+    <Compile Include="DAL\Admin\ChuyenLopHocSinhDAL.cs" />
+    <Compile Include="DAL\Admin\DBconnection.cs" />
+    <Compile Include="DAL\Admin\DocXoaHocSinhDAL.cs" />
+    <Compile Include="DAL\Admin\GiaoVienDB.cs" />
+    <Compile Include="DAL\Admin\HocBaAdminDAL.cs" />
+    <Compile Include="DAL\Admin\HocSinhDB.cs" />
+    <Compile Include="DAL\Admin\HocSinhXemDAL.cs" />
+    <Compile Include="DAL\Admin\HocSinh_LopDB.cs" />
+    <Compile Include="DAL\Admin\LopDB.cs" />
+    <Compile Include="DAL\Admin\LopHocDAL.cs" />
+    <Compile Include="DAL\Admin\MonHocDB.cs" />
+    <Compile Include="DAL\Admin\NguoiNhanDAL.cs" />
+    <Compile Include="DAL\Admin\PhanCongDayDB.cs" />
+    <Compile Include="DAL\Admin\RoleDB.cs" />
+    <Compile Include="DAL\Admin\SaveHocSinhDAL.cs" />
+    <Compile Include="DAL\Admin\SaveLopDAL.cs" />
+    <Compile Include="DAL\Admin\TaiKhoanDB.cs" />
+    <Compile Include="DAL\Admin\ThoiKhoaBieuDAL.cs" />
+    <Compile Include="DAL\Admin\ThongBaoDAL.cs" />
+    <Compile Include="DAL\Admin\ThongTinNghiepVuGVDB.cs" />
+    <Compile Include="DAL\Admin\XetDuyetDAL.cs" />
+    <Compile Include="DAL\DBConnection.cs" />
+    <Compile Include="DAL\HocSinh\DiemDAL.cs" />
+    <Compile Include="DAL\HocSinh\TaiKhoanDAL.cs" />
+    <Compile Include="DAL\HocSinh\ThongBaoHocSinhDAL.cs" />
+    <Compile Include="DAL\HocSinh\ThongTinHocSinhDAL.cs" />
+    <Compile Include="DAL\TaiKhoanDAL.cs" />
+    <Compile Include="Mod\GiaoVien.cs" />
+    <Compile Include="Mod\HocSinh.cs" />
+    <Compile Include="Mod\HocSinh_Lop.cs" />
+    <Compile Include="Mod\Lop.cs" />
+    <Compile Include="Mod\MonHoc.cs" />
+    <Compile Include="Mod\PhanCongDay.cs" />
+    <Compile Include="Mod\Role.cs" />
+    <Compile Include="Mod\TaiKhoan.cs" />
+    <Compile Include="Mod\ThoiKhoaBieu.cs" />
+    <Compile Include="Mod\ThongTinNghiepVuGV.cs" />
+    <Compile Include="UI\Controls\AdminControls\DangKyPhongHocAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\DangKyPhongHocAdmin.Designer.cs">
+      <DependentUpon>DangKyPhongHocAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\FrmQuanLyTKB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\FrmQuanLyTKB.Designer.cs">
+      <DependentUpon>FrmQuanLyTKB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\GiaoVienAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\GiaoVienAdmin.Designer.cs">
+      <DependentUpon>GiaoVienAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\HocSinhAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\HocSinhAdmin.Designer.cs">
+      <DependentUpon>HocSinhAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\LopAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\LopAdmin.Designer.cs">
+      <DependentUpon>LopAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\MonHocControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\MonHocControl.Designer.cs">
+      <DependentUpon>MonHocControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\NhapDiemAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\NhapDiemAdmin.Designer.cs">
+      <DependentUpon>NhapDiemAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\PhanCongControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\PhanCongControl.Designer.cs">
+      <DependentUpon>PhanCongControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\QuanLyPhongHoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\QuanLyPhongHoc.Designer.cs">
+      <DependentUpon>QuanLyPhongHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\QuanLyThietBi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\QuanLyThietBi.Designer.cs">
+      <DependentUpon>QuanLyThietBi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\TaiKhoanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\TaiKhoanControl.Designer.cs">
+      <DependentUpon>TaiKhoanControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\ThietBiPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\ThietBiPhong.Designer.cs">
+      <DependentUpon>ThietBiPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\ThongBaoAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\ThongBaoAdmin.Designer.cs">
+      <DependentUpon>ThongBaoAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\TKBGVControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\TKBGVControl.Designer.cs">
+      <DependentUpon>TKBGVControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\TKBTheoLopControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\TKBTheoLopControl.Designer.cs">
+      <DependentUpon>TKBTheoLopControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\XetDuyetAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\AdminControls\XetDuyetAdmin.Designer.cs">
+      <DependentUpon>XetDuyetAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\DangKyPhongHoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\DangKyPhongHoc.Designer.cs">
+      <DependentUpon>DangKyPhongHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\NhapDiemGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\NhapDiemGiaoVien.Designer.cs">
+      <DependentUpon>NhapDiemGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\TaiKhoanGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\TaiKhoanGiaoVien.Designer.cs">
+      <DependentUpon>TaiKhoanGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThoiKhoaBieuGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThoiKhoaBieuGiaoVien.Designer.cs">
+      <DependentUpon>ThoiKhoaBieuGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThongBaoGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThongBaoGiaoVien.Designer.cs">
+      <DependentUpon>ThongBaoGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThongTinGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Giaoviencontrols\ThongTinGiaoVien.Designer.cs">
+      <DependentUpon>ThongTinGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\DiemSoHocSinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\DiemSoHocSinh.Designer.cs">
+      <DependentUpon>DiemSoHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\TaiKhoanHocSinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\TaiKhoanHocSinh.Designer.cs">
+      <DependentUpon>TaiKhoanHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\ThoiKhoaBieuHocSinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\ThoiKhoaBieuHocSinh.Designer.cs">
+      <DependentUpon>ThoiKhoaBieuHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\ThongBaoHocSinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\ThongBaoHocSinh.Designer.cs">
+      <DependentUpon>ThongBaoHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\ThongTinHocSinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\HocSinhControls\ThongTinHocSinh.Designer.cs">
+      <DependentUpon>ThongTinHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainFrm\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainFrm\Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\MainFrm\GiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainFrm\GiaoVien.Designer.cs">
+      <DependentUpon>GiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainFrm\HocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainFrm\HocSinh.Designer.cs">
+      <DependentUpon>HocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainFrm\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainFrm\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\EditTaiKhoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\EditTaiKhoanForm.Designer.cs">
+      <DependentUpon>EditTaiKhoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChiTietChinhSua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChiTietChinhSua.Designer.cs">
+      <DependentUpon>FrmChiTietChinhSua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.Designer.cs">
+      <DependentUpon>FrmChuyenLopAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmDangKyChiTietAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmDangKyChiTietAdmin.Designer.cs">
+      <DependentUpon>FrmDangKyChiTietAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmEditTietHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmEditTietHoc.Designer.cs">
+      <DependentUpon>FrmEditTietHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmGiaoVienEditAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmGiaoVienEditAdmin.Designer.cs">
+      <DependentUpon>FrmGiaoVienEditAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhEditAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhEditAdmin.Designer.cs">
+      <DependentUpon>FrmHocSinhEditAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhXemAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhXemAdmin.Designer.cs">
+      <DependentUpon>FrmHocSinhXemAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmSaveLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmSaveLop.Designer.cs">
+      <DependentUpon>FrmSaveLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmThongBaoAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\FrmThongBaoAdmin.Designer.cs">
+      <DependentUpon>FrmThongBaoAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\HocBaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\HocBaAdmin.Designer.cs">
+      <DependentUpon>HocBaAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\KhoThietBiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\AdminPopUp\KhoThietBiForm.Designer.cs">
+      <DependentUpon>KhoThietBiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmDangKyChiTiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmDangKyChiTiet.Designer.cs">
+      <DependentUpon>FrmDangKyChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmDoiMatKhauGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmDoiMatKhauGiaoVien.Designer.cs">
+      <DependentUpon>FrmDoiMatKhauGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmSoanThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmSoanThongBao.Designer.cs">
+      <DependentUpon>FrmSoanThongBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmYeuCauChinhSuaGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\Giaovienpopup\FrmYeuCauChinhSuaGiaoVien.Designer.cs">
+      <DependentUpon>FrmYeuCauChinhSuaGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\HocSinhPopUp\FrmDoiMatKhauHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\HocSinhPopUp\FrmDoiMatKhauHocSinh.Designer.cs">
+      <DependentUpon>FrmDoiMatKhauHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\HocSinhPopUp\FrmThongBaoHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\HocSinhPopUp\FrmThongBaoHocSinh.Designer.cs">
+      <DependentUpon>FrmThongBaoHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\HocSinhPopUp\FrmYeuCauChinhSuaHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PopUpFrm\HocSinhPopUp\FrmYeuCauChinhSuaHocSinh.Designer.cs">
+      <DependentUpon>FrmYeuCauChinhSuaHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\EnumHelper.cs" />
+    <EmbeddedResource Include="UI\Controls\AdminControls\FrmQuanLyTKB.resx">
+      <DependentUpon>FrmQuanLyTKB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\GiaoVienAdmin.resx">
+      <DependentUpon>GiaoVienAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\HocSinhAdmin.resx">
+      <DependentUpon>HocSinhAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\LopAdmin.resx">
+      <DependentUpon>LopAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\MonHocControl.resx">
+      <DependentUpon>MonHocControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\NhapDiemAdmin.resx">
+      <DependentUpon>NhapDiemAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\PhanCongControl.resx">
+      <DependentUpon>PhanCongControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\QuanLyPhongHoc.resx">
+      <DependentUpon>QuanLyPhongHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\QuanLyThietBi.resx">
+      <DependentUpon>QuanLyThietBi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\TaiKhoanControl.resx">
+      <DependentUpon>TaiKhoanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\ThietBiPhong.resx">
+      <DependentUpon>ThietBiPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\ThongBaoAdmin.resx">
+      <DependentUpon>ThongBaoAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\TKBGVControl.resx">
+      <DependentUpon>TKBGVControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\AdminControls\TKBTheoLopControl.resx">
+      <DependentUpon>TKBTheoLopControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Giaoviencontrols\DangKyPhongHoc.resx">
+      <DependentUpon>DangKyPhongHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Giaoviencontrols\TaiKhoanGiaoVien.resx">
+      <DependentUpon>TaiKhoanGiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Giaoviencontrols\ThoiKhoaBieuGiaoVien.resx">
+      <DependentUpon>ThoiKhoaBieuGiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Giaoviencontrols\ThongBaoGiaoVien.resx">
+      <DependentUpon>ThongBaoGiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Giaoviencontrols\ThongTinGiaoVien.resx">
+      <DependentUpon>ThongTinGiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\HocSinhControls\DiemSoHocSinh.resx">
+      <DependentUpon>DiemSoHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\HocSinhControls\TaiKhoanHocSinh.resx">
+      <DependentUpon>TaiKhoanHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\HocSinhControls\ThoiKhoaBieuHocSinh.resx">
+      <DependentUpon>ThoiKhoaBieuHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\HocSinhControls\ThongBaoHocSinh.resx">
+      <DependentUpon>ThongBaoHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\HocSinhControls\ThongTinHocSinh.resx">
+      <DependentUpon>ThongTinHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainFrm\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\MainFrm\GiaoVien.resx">
+      <DependentUpon>GiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainFrm\HocSinh.resx">
+      <DependentUpon>HocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\EditTaiKhoanForm.resx">
+      <DependentUpon>EditTaiKhoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmChiTietChinhSua.resx">
+      <DependentUpon>FrmChiTietChinhSua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmChuyenLopAdmin.resx">
+      <DependentUpon>FrmChuyenLopAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmDangKyChiTietAdmin.resx">
+      <DependentUpon>FrmDangKyChiTietAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmEditTietHoc.resx">
+      <DependentUpon>FrmEditTietHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmGiaoVienEditAdmin.resx">
+      <DependentUpon>FrmGiaoVienEditAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\FrmHocSinhEditAdmin.resx">
+      <DependentUpon>FrmHocSinhEditAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\HocBaAdmin.resx">
+      <DependentUpon>HocBaAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\AdminPopUp\KhoThietBiForm.resx">
+      <DependentUpon>KhoThietBiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\Giaovienpopup\FrmDangKyChiTiet.resx">
+      <DependentUpon>FrmDangKyChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\Giaovienpopup\FrmYeuCauChinhSuaGiaoVien.resx">
+      <DependentUpon>FrmYeuCauChinhSuaGiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\HocSinhPopUp\FrmDoiMatKhauHocSinh.resx">
+      <DependentUpon>FrmDoiMatKhauHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PopUpFrm\HocSinhPopUp\FrmYeuCauChinhSuaHocSinh.resx">
+      <DependentUpon>FrmYeuCauChinhSuaHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-48.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
