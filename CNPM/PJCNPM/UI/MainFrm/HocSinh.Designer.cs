@@ -9,7 +9,7 @@
         private Guna.UI2.WinForms.Guna2Panel header;
         private Guna.UI2.WinForms.Guna2Button btnMenu;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
-
+        private Guna.UI2.WinForms.Guna2Button btnTKB;
         private Guna.UI2.WinForms.Guna2Button btnThongTinCaNhan;
         private Guna.UI2.WinForms.Guna2Button btnThongBao;
         private Guna.UI2.WinForms.Guna2Button btnDiemSo;
@@ -29,6 +29,7 @@
             this.sidebar = new Guna.UI2.WinForms.Guna2Panel();
             this.btnChinhSuaTaiKhoan = new Guna.UI2.WinForms.Guna2Button();
             this.btnDiemSo = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTKB = new Guna.UI2.WinForms.Guna2Button();
             this.btnThongBao = new Guna.UI2.WinForms.Guna2Button();
             this.btnThongTinCaNhan = new Guna.UI2.WinForms.Guna2Button();
             this.btnLogout = new Guna.UI2.WinForms.Guna2Button();
@@ -45,6 +46,7 @@
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.sidebar.Controls.Add(this.btnChinhSuaTaiKhoan);
             this.sidebar.Controls.Add(this.btnDiemSo);
+            this.sidebar.Controls.Add(this.btnTKB);
             this.sidebar.Controls.Add(this.btnThongBao);
             this.sidebar.Controls.Add(this.btnThongTinCaNhan);
             this.sidebar.Controls.Add(this.btnLogout);
@@ -60,7 +62,7 @@
             this.btnChinhSuaTaiKhoan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnChinhSuaTaiKhoan.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnChinhSuaTaiKhoan.ForeColor = System.Drawing.Color.White;
-            this.btnChinhSuaTaiKhoan.Location = new System.Drawing.Point(0, 135);
+            this.btnChinhSuaTaiKhoan.Location = new System.Drawing.Point(0, 591);
             this.btnChinhSuaTaiKhoan.Name = "btnChinhSuaTaiKhoan";
             this.btnChinhSuaTaiKhoan.Size = new System.Drawing.Size(220, 45);
             this.btnChinhSuaTaiKhoan.TabIndex = 0;
@@ -73,12 +75,25 @@
             this.btnDiemSo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnDiemSo.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnDiemSo.ForeColor = System.Drawing.Color.White;
-            this.btnDiemSo.Location = new System.Drawing.Point(0, 90);
+            this.btnDiemSo.Location = new System.Drawing.Point(0, 135);
             this.btnDiemSo.Name = "btnDiemSo";
             this.btnDiemSo.Size = new System.Drawing.Size(220, 45);
             this.btnDiemSo.TabIndex = 1;
             this.btnDiemSo.Text = "Điểm số";
             this.btnDiemSo.Click += new System.EventHandler(this.btnDiemSo_Click);
+            // 
+            // btnTKB
+            // 
+            this.btnTKB.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTKB.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnTKB.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.btnTKB.ForeColor = System.Drawing.Color.White;
+            this.btnTKB.Location = new System.Drawing.Point(0, 90);
+            this.btnTKB.Name = "btnTKB";
+            this.btnTKB.Size = new System.Drawing.Size(220, 45);
+            this.btnTKB.TabIndex = 2;
+            this.btnTKB.Text = "Thời khóa biểu";
+            this.btnTKB.Click += new System.EventHandler(this.btnTKB_Click);
             // 
             // btnThongBao
             // 

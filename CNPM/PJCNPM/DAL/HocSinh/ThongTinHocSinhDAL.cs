@@ -78,5 +78,24 @@ namespace PJCNPM.DAL.HocSinh
 
             return db.ExecuteNonQuery(query);
         }
+        // 🔹 Lấy thông tin học sinh bao gồm lớp học
+        public DataRow GetHocSinhWithLop(int hocSinhID)
+        {
+            string query = $@"
+                SELECT 
+                    h.HocSinhID, 
+                    h.HoTen,
+                    hl.LopID,
+                    l.TenLop
+                FROM HocSinh h
+                LEFT JOIN HocSinh_Lop hl ON h.HocSinhID = hl.HocSinhID
+                LEFT JOIN Lop l ON hl.LopID = l.LopID
+                WHERE h.HocSinhID = {hocSinhID}";
+
+            DataTable dt = db.GetData(query);
+            if (dt.Rows.Count == 0) return null;
+
+            return dt.Rows[0];
+        }
     }
 }

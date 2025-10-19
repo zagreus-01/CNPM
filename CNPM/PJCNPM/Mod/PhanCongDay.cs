@@ -8,10 +8,9 @@ namespace PJCNPM.Mod
 {
     public class PhanCongDay
     {
-        public int PhanCongID { get; set; }   
+        public int MonHocID { get; set; }   
         public int GiaoVienID { get; set; }   
         public int LopID { get; set; }   
-        public int MonHocID { get; set; }   
-        public int SoTiet { get; set; }  
+        public int? SoTiet { get; set; }   
     }
 }

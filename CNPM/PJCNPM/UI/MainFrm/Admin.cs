@@ -101,11 +101,13 @@ namespace PJCNPM.UI.MainFrm
         private void btnMonHoc_Click(object sender, EventArgs e)
         {
             HighlightButton(btnMonHoc);
+            LoadControl(new MonHocControl());
         }
 
         private void btnPhanCong_Click(object sender, EventArgs e)
         {
             HighlightButton(btnPhanCong);
+            LoadControl(new PhanCongControl());
         }
 
         private void btnThongBao_Click(object sender, EventArgs e)
@@ -123,11 +125,13 @@ namespace PJCNPM.UI.MainFrm
         private void btnDanhSachTaiKhoan_Click(object sender, EventArgs e)
         {
             HighlightButton(btnDanhSachTaiKhoan);
+            LoadControl(new TaiKhoanControl());
         }
 
         private void btnTaiKhoanCaNhan_Click(object sender, EventArgs e)
         {
             HighlightButton(btnTaiKhoanCaNhan);
+
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -177,7 +181,7 @@ namespace PJCNPM.UI.MainFrm
         private void btnTKB_Click(object sender, EventArgs e)
         {
             HighlightButton(btnTKB);
-
+            LoadControl(new FrmQuanLyTKB());
         }
 
         private void btnDangKyPhong_Click(object sender, EventArgs e)

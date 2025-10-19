@@ -90,5 +90,12 @@ namespace PJCNPM.UI.MainFrm
         {
             this.Close();
         }
+
+        private void btnTKB_Click(object sender, EventArgs e)
+        {
+            HighlightButton(btnTKB);
+             LoadContent(new ThoiKhoaBieuHocSinh(maHS));
+
+        }
     }
 }

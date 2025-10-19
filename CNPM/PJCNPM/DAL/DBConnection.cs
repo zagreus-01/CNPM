@@ -7,9 +7,14 @@ namespace PJCNPM.DAL
 {
     internal class DBConnection
     {
-        private readonly string connectionString =
-            @"Data Source=localhost;Initial Catalog=PJCNPM;Integrated Security=True";
+        public readonly string connectionString = GlobalConfig.ConnectionString;
+        public static class GlobalConfig
+        {
+            public const string LocalConn =
+                @"Data Source=TUNG;Initial Catalog=PJCNPM;Integrated Security=True";
 
+            public static readonly string ConnectionString = LocalConn;
+        }
         // 🔹 Lấy dữ liệu (dạng DataTable) - hỗ trợ cả query có tham số
         public DataTable GetData(string sql, SqlParameter[] parameters = null)
         {

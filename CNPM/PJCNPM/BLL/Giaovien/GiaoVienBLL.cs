@@ -68,5 +68,40 @@ namespace PJCNPM.BLL.GiaoVien
                 TenTK = row["TenTK"] as string
             };
         }
+        // 🔹 Lấy thông tin giáo viên theo ID
+        public GiaoVienInfo GetThongTinGiaoVienByID(int giaoVienID)
+        {
+            string sql = @"
+                SELECT GiaoVienID, HoTen, GioiTinh, CCCD, Email, DienThoai,
+                       DanToc, TonGiao, LaDangVien, NoiThuongTru,
+                       QueQuan, NgaySinh, TrangThai, TenTK
+                FROM GiaoVien
+                WHERE GiaoVienID = @GiaoVienID";
+
+            var param = new SqlParameter("@GiaoVienID", giaoVienID);
+            DataTable dt = db.GetData(sql, new SqlParameter[] { param });
+
+            if (dt == null || dt.Rows.Count == 0)
+                return null;
+
+            var row = dt.Rows[0];
+            return new GiaoVienInfo
+            {
+                GiaoVienID = Convert.ToInt32(row["GiaoVienID"]),
+                HoTen = row["HoTen"] as string,
+                GioiTinh = row["GioiTinh"] == DBNull.Value ? (bool?)null : Convert.ToBoolean(row["GioiTinh"]),
+                CCCD = row["CCCD"] as string,
+                Email = row["Email"] as string,
+                DienThoai = row["DienThoai"] as string,
+                DanToc = row["DanToc"] as string,
+                TonGiao = row["TonGiao"] as string,
+                LaDangVien = row["LaDangVien"] == DBNull.Value ? (bool?)null : Convert.ToBoolean(row["LaDangVien"]),
+                NoiThuongTru = row["NoiThuongTru"] as string,
+                QueQuan = row["QueQuan"] as string,
+                NgaySinh = row["NgaySinh"] == DBNull.Value ? (DateTime?)null : Convert.ToDateTime(row["NgaySinh"]),
+                TrangThai = row["TrangThai"] == DBNull.Value ? (byte?)null : Convert.ToByte(row["TrangThai"]),
+                TenTK = row["TenTK"] as string
+            };
+        }
     }
 }

@@ -54,7 +54,23 @@ namespace PJCNPM.BLL.HocSinh
             return dal.GuiYeuCauChinhSua(
                 hocSinhID, hoTenMoi, ngaySinhMoi, gioiTinhMoi, danTocMoi, tonGiaoMoi, queQuanMoi);
         }
+        // 🔹 Lấy thông tin học sinh bao gồm lớp học
+        public HocSinhLopDTO GetThongTinHocSinh(int hocSinhID)
+        {
+            var row = dal.GetHocSinhWithLop(hocSinhID);
+            if (row == null)
+                return null;
+
+            return new HocSinhLopDTO
+            {
+                HocSinhID = Convert.ToInt32(row["HocSinhID"]),
+                HoTen = row["HoTen"].ToString(),
+                LopID = row["LopID"] != DBNull.Value ? Convert.ToInt32(row["LopID"]) : (int?)null,
+                TenLop = row["TenLop"]?.ToString()
+            };
+        }
     }
+
 
     // DTO tách riêng dữ liệu học sinh
     public class HocSinhDTO
@@ -68,5 +84,13 @@ namespace PJCNPM.BLL.HocSinh
         public string QueQuan { get; set; }
         public string TrangThai { get; set; }  // "Đang học", "Nghỉ học"
         public int NamNhapHoc { get; set; }
+    }
+    // DTO cho thông tin học sinh và lớp
+    public class HocSinhLopDTO
+    {
+        public int HocSinhID { get; set; }
+        public string HoTen { get; set; }
+        public int? LopID { get; set; }
+        public string TenLop { get; set; }
     }
 }

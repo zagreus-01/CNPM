@@ -1,38 +1,190 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\",
+  "WorkspaceRootPath": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm-hao\\pjcnpm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\ui\\controls\\admincontrols\\xetduyetadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\xetduyetadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\ui\\controls\\admincontrols\\xetduyetadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\xetduyetadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\ui\\controls\\admincontrols\\taikhoancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\taikhoancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\ui\\controls\\admincontrols\\taikhoancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\taikhoancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\ui\\controls\\admincontrols\\frmquanlytkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\frmquanlytkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\edittaikhoanform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\edittaikhoanform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\edittaikhoanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\edittaikhoanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\ui\\popupfrm\\adminpopup\\edittaikhoanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\edittaikhoanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\bll\\admin\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\admin\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\dal\\admin\\taikhoandb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\admin\\taikhoandb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|c:\\users\\ptung\\onedrive\\desktop\\cnpm-hao\\cnpm\\pjcnpm\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\pjcnpm\\bll\\admin\\diemsoadminbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\giaoviencontrols\\dangkyphonghoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\giaoviencontrols\\dangkyphonghoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\mainfrm\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\mainfrm\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\mainfrm\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\mainfrm\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\mainfrm\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\mainfrm\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\hocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\mainfrm\\hocsinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\mainfrm\\hocsinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyentoanbolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyentoanbolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyentoanbolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyentoanbolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\admincontrols\\lopadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\lopadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\admincontrols\\lopadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\lopadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyentoanbolop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyentoanbolop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\bll\\admin\\chuyentoanbobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\admin\\chuyentoanbobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\dal\\admin\\chuyentoanbodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\admin\\chuyentoanbodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyenlopadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyenlopadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyenlopadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\popupfrm\\adminpopup\\frmchuyenlopadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\bll\\admin\\chuyenlophocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\admin\\chuyenlophocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\bll\\admin\\lophocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\admin\\lophocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\bll\\admin\\hocsinhxembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\admin\\hocsinhxembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\bll\\hocsinh\\thongtinhocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\hocsinh\\thongtinhocsinhbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\dal\\hocsinh\\thongtinhocsinhdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\hocsinh\\thongtinhocsinhdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\hocsinhcontrols\\thoikhoabieuhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\hocsinhcontrols\\thoikhoabieuhocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\giaoviencontrols\\thoikhoabieugiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\giaoviencontrols\\thoikhoabieugiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\bll\\giaovien\\giaovienbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\giaovien\\giaovienbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\dal\\admin\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\admin\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\admincontrols\\tkbtheolopcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\tkbtheolopcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\admincontrols\\frmquanlytkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\frmquanlytkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\bll\\admin\\diemsoadminbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\bll\\admin\\diemsoadminbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\ui\\controls\\admincontrols\\nhapdiemadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\pjcnpm\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8398B3A0-88A7-4F31-8D0D-9DA398DDA6E7}|PJCNPM\\PJCNPM.csproj|solutionrelative:pjcnpm\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,47 +206,518 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XetDuyetAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.Designer.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.Designer.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv4gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:57:34.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XetDuyetAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\XetDuyetAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:57:31.064Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaiKhoanControl.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\TaiKhoanControl.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\TaiKhoanControl.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\TaiKhoanControl.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\TaiKhoanControl.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAswNoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:54:04.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaiKhoanControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\TaiKhoanControl.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\TaiKhoanControl.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\TaiKhoanControl.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\TaiKhoanControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:54:02.634Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmQuanLyTKB.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\FrmQuanLyTKB.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\FrmQuanLyTKB.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\FrmQuanLyTKB.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\FrmQuanLyTKB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:53:54.704Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\Program.cs",
               "RelativeDocumentMoniker": "PJCNPM\\Program.cs",
-              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\Program.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\Program.cs",
               "RelativeToolTip": "PJCNPM\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T15:23:33.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\MainFrm\\Login.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Login.cs",
-              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\MainFrm\\Login.cs",
-              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Login.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwEYAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "EditTaiKhoanForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.Designer.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.Designer.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.Designer.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAADgv2MAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:21:55.737Z"
+              "WhenOpened": "2025-10-19T04:48:58.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "EditTaiKhoanForm.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwF0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:46:32.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditTaiKhoanForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\EditTaiKhoanForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:46:27.687Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaiKhoanBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\TaiKhoanBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\Admin\\TaiKhoanBLL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\TaiKhoanBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\Admin\\TaiKhoanBLL.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAIwEgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:44:49.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaiKhoanDB.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\Admin\\TaiKhoanDB.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\DAL\\Admin\\TaiKhoanDB.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\Admin\\TaiKhoanDB.cs",
+              "RelativeToolTip": "PJCNPM\\DAL\\Admin\\TaiKhoanDB.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:43:57.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HocSinh.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\HocSinh.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\HocSinh.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\HocSinh.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\HocSinh.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAnwFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T03:24:30.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HocSinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\HocSinh.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\HocSinh.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\HocSinh.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\HocSinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T03:20:23.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\DBConnection.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\DAL\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\DBConnection.cs",
+              "RelativeToolTip": "PJCNPM\\DAL\\DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:04:41.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\MainFrm\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\Login.cs",
               "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Login.cs",
-              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\MainFrm\\Login.cs [Design]",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\Login.cs [Design]",
               "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:21:53.167Z"
+              "WhenOpened": "2025-10-18T15:21:53.167Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\Login.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Login.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\Login.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Login.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwE0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:21:55.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DangKyPhongHoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\Giaoviencontrols\\DangKyPhongHoc.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\Giaoviencontrols\\DangKyPhongHoc.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\Giaoviencontrols\\DangKyPhongHoc.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\Giaoviencontrols\\DangKyPhongHoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T03:52:25.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GiaoVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\GiaoVien.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\GiaoVien.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\GiaoVien.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\GiaoVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T03:26:46.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GiaoVien.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\GiaoVien.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\GiaoVien.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\GiaoVien.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\GiaoVien.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAswKEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T03:27:28.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Admin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\Admin.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:28:11.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\Admin.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAiwLcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:28:56.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HocSinh.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\HocSinh.Designer.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\MainFrm\\HocSinh.Designer.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\MainFrm\\HocSinh.Designer.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\MainFrm\\HocSinh.Designer.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T03:20:29.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FrmChuyenToanBoLop.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.Designer.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.Designer.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.Designer.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.Designer.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwLUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T18:05:12.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FrmChuyenToanBoLop.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T18:05:06.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FrmChuyenToanBoLop.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenToanBoLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T18:05:01.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LopAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\LopAdmin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\LopAdmin.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\LopAdmin.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\LopAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:49:04.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LopAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\LopAdmin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\LopAdmin.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\LopAdmin.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\LopAdmin.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswGYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:49:08.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChuyenToanBoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\ChuyenToanBoBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\Admin\\ChuyenToanBoBLL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\ChuyenToanBoBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\Admin\\ChuyenToanBoBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T18:00:06.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ChuyenToanBoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\Admin\\ChuyenToanBoDAL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\DAL\\Admin\\ChuyenToanBoDAL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\Admin\\ChuyenToanBoDAL.cs",
+              "RelativeToolTip": "PJCNPM\\DAL\\Admin\\ChuyenToanBoDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:59:44.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FrmChuyenLopAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenLopAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenLopAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenLopAdmin.Designer.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenLopAdmin.Designer.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAUwMYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:57:23.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FrmChuyenLopAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenLopAdmin.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenLopAdmin.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenLopAdmin.cs [Design]",
+              "RelativeToolTip": "PJCNPM\\UI\\PopUpFrm\\AdminPopUp\\FrmChuyenLopAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:57:19.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ChuyenLopHocSinhBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\ChuyenLopHocSinhBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\Admin\\ChuyenLopHocSinhBLL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\ChuyenLopHocSinhBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\Admin\\ChuyenLopHocSinhBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:53:43.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LopHocBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\LopHocBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\Admin\\LopHocBLL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\LopHocBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\Admin\\LopHocBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:53:30.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HocSinhXemBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\HocSinhXemBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\Admin\\HocSinhXemBLL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\HocSinhXemBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\Admin\\HocSinhXemBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:53:16.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ThongTinHocSinhDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\HocSinh\\ThongTinHocSinhDAL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\DAL\\HocSinh\\ThongTinHocSinhDAL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\HocSinh\\ThongTinHocSinhDAL.cs",
+              "RelativeToolTip": "PJCNPM\\DAL\\HocSinh\\ThongTinHocSinhDAL.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAADwv2IAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:42:59.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ThongTinHocSinhBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\HocSinh\\ThongTinHocSinhBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\HocSinh\\ThongTinHocSinhBLL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\HocSinh\\ThongTinHocSinhBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\HocSinh\\ThongTinHocSinhBLL.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAIA+wDsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:41:18.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GiaoVienBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Giaovien\\GiaoVienBLL.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\BLL\\Giaovien\\GiaoVienBLL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Giaovien\\GiaoVienBLL.cs",
+              "RelativeToolTip": "PJCNPM\\BLL\\Giaovien\\GiaoVienBLL.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwv2gAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:40:03.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DBconnection.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\Admin\\DBconnection.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\DAL\\Admin\\DBconnection.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\DAL\\Admin\\DBconnection.cs",
+              "RelativeToolTip": "PJCNPM\\DAL\\Admin\\DBconnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:37:50.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ThoiKhoaBieuHocSinh.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThoiKhoaBieuHocSinh.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThoiKhoaBieuHocSinh.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\HocSinhControls\\ThoiKhoaBieuHocSinh.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\HocSinhControls\\ThoiKhoaBieuHocSinh.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAArwCYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:32:18.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TKBTheoLopControl.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\TKBTheoLopControl.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\TKBTheoLopControl.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\TKBTheoLopControl.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\TKBTheoLopControl.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAADgv3oAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:32:21.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ThoiKhoaBieuGiaoVien.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\Giaoviencontrols\\ThoiKhoaBieuGiaoVien.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\Giaoviencontrols\\ThoiKhoaBieuGiaoVien.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\Giaoviencontrols\\ThoiKhoaBieuGiaoVien.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\Giaoviencontrols\\ThoiKhoaBieuGiaoVien.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAArwCYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:31:50.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FrmQuanLyTKB.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\FrmQuanLyTKB.cs",
+              "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\FrmQuanLyTKB.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\FrmQuanLyTKB.cs",
+              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\FrmQuanLyTKB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADgvxEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:30:29.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "NhapDiemAdmin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.Designer.cs",
               "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.Designer.cs",
-              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.Designer.cs",
               "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.Designer.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAADgv4sAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -102,23 +725,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\DAL\\DBConnection.cs",
-              "RelativeDocumentMoniker": "PJCNPM\\DAL\\DBConnection.cs",
-              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\DAL\\DBConnection.cs",
-              "RelativeToolTip": "PJCNPM\\DAL\\DBConnection.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAswIcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:04:41.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 44,
               "Title": "NhapDiemAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs",
               "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs",
-              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs",
               "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs",
               "ViewState": "AgIAAAsBAAAAAAAAAADwvyEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -126,11 +737,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 42,
               "Title": "DiemSoAdminBLL.cs",
-              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\BLL\\Admin\\DiemSoAdminBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\DiemSoAdminBLL.cs",
               "RelativeDocumentMoniker": "PJCNPM\\BLL\\Admin\\DiemSoAdminBLL.cs",
-              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\BLL\\Admin\\DiemSoAdminBLL.cs",
+              "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\BLL\\Admin\\DiemSoAdminBLL.cs",
               "RelativeToolTip": "PJCNPM\\BLL\\Admin\\DiemSoAdminBLL.cs",
               "ViewState": "AgIAAH8AAAAAAAAAAADwv6AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,12 +749,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 43,
               "Title": "NhapDiemAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs",
               "RelativeDocumentMoniker": "PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs",
               "ToolTip": "C:\\Users\\ptung\\OneDrive\\Desktop\\CNPM-hao\\CNPM-hao\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs [Design]",
-              "RelativeToolTip": "PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs [Design]",
+              "RelativeToolTip": "..\\CNPM-hao\\PJCNPM\\UI\\Controls\\AdminControls\\NhapDiemAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T14:51:00.986Z"
             }

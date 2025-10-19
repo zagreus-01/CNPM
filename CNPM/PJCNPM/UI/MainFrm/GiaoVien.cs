@@ -149,5 +149,17 @@ namespace PJCNPM.UI.MainFrm
             lblTitle.Text = "TRANG GIÁO VIÊN - ĐĂNG KÝ PHÒNG HỌC";
         }
 
+        private void btnThoiKhoaBieu_Click(object sender, EventArgs e)
+        {
+            if (_giaoVienID == 0)
+            {
+                MessageBox.Show("Không thể mở chức năng do không xác định được mã giáo viên.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            HighlightButton(btnThoiKhoaBieu);
+            var tkbControl = new PJCNPM.UI.Controls.GiaoVienControls.ThoiKhoaBieuGiaoVien(_giaoVienID);
+            LoadContent(tkbControl);
+            lblTitle.Text = "TRANG GIÁO VIÊN - THỜI KHÓA BIỂU";
+        }
     }
 }
