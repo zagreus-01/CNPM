@@ -17,6 +17,8 @@ namespace PJCNPM.UI.PopUpFrm.AdminPopUp
             _tenLopCu = tenLopCu;
             this.Load += new System.EventHandler(this.FrmChuyenToanBoLop_Load);
 
+            chkXoaDiem.Enabled = false;
+
         }
 
         private void FrmChuyenToanBoLop_Load(object sender, EventArgs e)
@@ -38,8 +40,7 @@ namespace PJCNPM.UI.PopUpFrm.AdminPopUp
             }
 
             int lopMoiID = Convert.ToInt32(cboLopMoi.SelectedValue);
-            bool xoaDiem = chkXoaDiem.Checked;
-
+            bool xoaDiem = false;
             string msg = xoaDiem
                 ? $"Chuyển toàn bộ học sinh lớp '{_tenLopCu}' sang '{cboLopMoi.Text}' và XÓA điểm lớp cũ?"
                 : $"Chuyển toàn bộ học sinh lớp '{_tenLopCu}' sang '{cboLopMoi.Text}' và GIỮ điểm lớp cũ?";
@@ -68,5 +69,6 @@ namespace PJCNPM.UI.PopUpFrm.AdminPopUp
         {
             Close();
         }
+
     }
 }

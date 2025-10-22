@@ -89,9 +89,9 @@ namespace PJCNPM.UI.PopUpFrm.AdminPopUp
                 if (id.HasValue)
                 {
                     string roleText = $"RoleID = {id.Value}";
-                    if (id.Value == 1) roleText = "Học sinh";
+                    if (id.Value == 1) roleText = "Admin";
                     else if (id.Value == 2) roleText = "Giáo viên";
-                    else if (id.Value == 3) roleText = "Admin";
+                    else if (id.Value == 3) roleText = "Học Sinh";
                     cboRole.Items.Add(new RoleItem(id.Value, roleText));
                 }
             }

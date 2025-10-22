@@ -139,7 +139,12 @@ namespace PJCNPM.UI.MainFrm
             if (MessageBox.Show("Bạn có chắc muốn đăng xuất không?",
                 "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                this.Close();
+                this.Hide();
+                using (var login = new Login())
+                {
+                    login.ShowDialog(); // chờ login đóng
+                }
+                this.Close(); // đóng form hiện tại sau khi login đóng
             }
         }
 
@@ -181,7 +186,7 @@ namespace PJCNPM.UI.MainFrm
         private void btnTKB_Click(object sender, EventArgs e)
         {
             HighlightButton(btnTKB);
-
+            LoadControl(new FrmQuanLyTKB());
         }
 
         private void btnDangKyPhong_Click(object sender, EventArgs e)

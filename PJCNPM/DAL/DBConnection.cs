@@ -11,7 +11,10 @@ namespace PJCNPM.DAL
         public static class GlobalConfig
         {
             public const string LocalConn =
-                @"Data Source=TUNG;Initial Catalog=PJCNPM;Integrated Security=True";
+                @"Data Source=aws.cbewwmqkgq51.ap-southeast-1.rds.amazonaws.com,1433;
+ Initial Catalog=CNPM;
+ User ID=admin;
+ Password=tung1234";
 
             public static readonly string ConnectionString = LocalConn;
         }

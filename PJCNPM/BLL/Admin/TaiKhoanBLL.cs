@@ -38,9 +38,9 @@ namespace PJCNPM.BLL.Admin
                 if (role == 2)
                     row["VaiTro"] = "Giáo viên";
                 else if (role == 1)
-                    row["VaiTro"] = "Học sinh";
+                    row["VaiTro"] = "Admin";
                 else if (role == 3)
-                    row["VaiTro"] = "Quản trị viên";
+                    row["VaiTro"] = "Học Sinh";
                 else
                     row["VaiTro"] = "Chưa có vai trò";
             }
@@ -68,9 +68,9 @@ namespace PJCNPM.BLL.Admin
                 if (role == 2)
                     row["VaiTro"] = "Giáo viên";
                 else if (role == 1)
-                    row["VaiTro"] = "Học sinh";
+                    row["VaiTro"] = "Admin";
                 else if (role == 3)
-                    row["VaiTro"] = "Quản trị viên";
+                    row["VaiTro"] = "Học Sinh";
                 else
                     row["VaiTro"] = "Chưa có vai trò";
             }

@@ -124,7 +124,7 @@ namespace PJCNPM.UI.Controls.AdminControls
             int? role = _taiKhoanBLL.ToNullableInt(row.Cells["RoleID"]?.Value);
             int trangThaiGrid = _taiKhoanBLL.ParseTrangThai(row.Cells["TrangThai"]?.Value);
 
-            var dlg = new PJCNPM.UI.PopUpFrm.AdminPopUp.EditTaiKhoanForm(new int?[] { 1 });
+            var dlg = new PJCNPM.UI.PopUpFrm.AdminPopUp.EditTaiKhoanForm(new int?[] { 1,2,3 });
             dlg.TenTK = tenTK;
             dlg.MatKhau = mk;
             dlg.RoleID = role;
@@ -212,7 +212,7 @@ namespace PJCNPM.UI.Controls.AdminControls
             int? role = _taiKhoanBLL.ToNullableInt(row.Cells["RoleID"]?.Value);
             int trangThaiGrid = _taiKhoanBLL.ParseTrangThai(row.Cells["TrangThai"]?.Value);
 
-            var dlg = new PJCNPM.UI.PopUpFrm.AdminPopUp.EditTaiKhoanForm(new int?[] { 2, 3 });
+            var dlg = new PJCNPM.UI.PopUpFrm.AdminPopUp.EditTaiKhoanForm(new int?[] {1, 2, 3 });
             dlg.TenTK = tenTK;
             dlg.MatKhau = mk;
             dlg.RoleID = role;

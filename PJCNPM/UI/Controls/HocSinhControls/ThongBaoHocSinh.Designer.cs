@@ -7,8 +7,11 @@ namespace PJCNPM.UI.Controls.HocSinhControls
     partial class ThongBaoHocSinh
     {
         private System.ComponentModel.IContainer components = null;
+
+        // 🔹 Các control dùng chung
         private Guna2HtmlLabel lblTimKiem;
         private Guna2TextBox txtTimKiem;
+        private Guna2HtmlLabel lblTitle;
         private Guna2DataGridView dgvThongBao;
 
         protected override void Dispose(bool disposing)
@@ -18,6 +21,7 @@ namespace PJCNPM.UI.Controls.HocSinhControls
             base.Dispose(disposing);
         }
 
+        #region Windows Form Designer generated code
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -25,8 +29,8 @@ namespace PJCNPM.UI.Controls.HocSinhControls
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblTimKiem = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtTimKiem = new Guna.UI2.WinForms.Guna2TextBox();
-            this.dgvThongBao = new Guna.UI2.WinForms.Guna2DataGridView();
             this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.dgvThongBao = new Guna.UI2.WinForms.Guna2DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongBao)).BeginInit();
             this.SuspendLayout();
             // 
@@ -34,7 +38,7 @@ namespace PJCNPM.UI.Controls.HocSinhControls
             // 
             this.lblTimKiem.BackColor = System.Drawing.Color.Transparent;
             this.lblTimKiem.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
-            this.lblTimKiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.lblTimKiem.ForeColor = System.Drawing.Color.FromArgb(70, 70, 70);
             this.lblTimKiem.Location = new System.Drawing.Point(50, 90);
             this.lblTimKiem.Name = "lblTimKiem";
             this.lblTimKiem.Size = new System.Drawing.Size(86, 27);
@@ -43,7 +47,7 @@ namespace PJCNPM.UI.Controls.HocSinhControls
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTimKiem.BorderRadius = 8;
             this.txtTimKiem.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -64,14 +68,14 @@ namespace PJCNPM.UI.Controls.HocSinhControls
             this.dgvThongBao.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.dgvThongBao.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvThongBao.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dgvThongBao.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(0, 120, 215);
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
             this.dgvThongBao.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvThongBao.ColumnHeadersHeight = 40;
@@ -79,39 +83,39 @@ namespace PJCNPM.UI.Controls.HocSinhControls
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(225, 235, 255);
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvThongBao.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvThongBao.GridColor = System.Drawing.Color.Blue;
+            this.dgvThongBao.GridColor = System.Drawing.Color.FromArgb(230, 230, 230);
             this.dgvThongBao.Location = new System.Drawing.Point(60, 140);
             this.dgvThongBao.Name = "dgvThongBao";
             this.dgvThongBao.ReadOnly = true;
             this.dgvThongBao.RowHeadersVisible = false;
             this.dgvThongBao.RowHeadersWidth = 51;
             this.dgvThongBao.Size = new System.Drawing.Size(820, 320);
-            this.dgvThongBao.TabIndex = 1;
+            this.dgvThongBao.TabIndex = 4;
             this.dgvThongBao.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvThongBao.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.dgvThongBao.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dgvThongBao.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgvThongBao.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.dgvThongBao.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dgvThongBao.ThemeStyle.GridColor = System.Drawing.Color.Blue;
-            this.dgvThongBao.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dgvThongBao.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(230, 230, 230);
+            this.dgvThongBao.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
             this.dgvThongBao.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgvThongBao.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvThongBao.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.dgvThongBao.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dgvThongBao.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvThongBao.ThemeStyle.HeaderStyle.Height = 40;
             this.dgvThongBao.ThemeStyle.ReadOnly = true;
             this.dgvThongBao.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvThongBao.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvThongBao.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvThongBao.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.dgvThongBao.ThemeStyle.RowsStyle.Height = 22;
-            this.dgvThongBao.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvThongBao.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvThongBao.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.dgvThongBao.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.dgvThongBao.ThemeStyle.RowsStyle.Height = 28;
+            this.dgvThongBao.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(225, 235, 255);
+            this.dgvThongBao.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             // 
             // lblTitle
             // 
@@ -142,7 +146,6 @@ namespace PJCNPM.UI.Controls.HocSinhControls
             this.PerformLayout();
 
         }
-
-        private Guna2HtmlLabel lblTitle;
+        #endregion
     }
 }

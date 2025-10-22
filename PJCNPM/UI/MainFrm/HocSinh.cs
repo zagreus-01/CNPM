@@ -88,7 +88,20 @@ namespace PJCNPM.UI.MainFrm
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            using (var login = new Login())
+            {
+                login.ShowDialog(); // chờ login đóng
+            }
+            this.Close(); // đóng form hiện tại sau khi login đóng
+
+        }
+
+        private void btnTKB_Click(object sender, EventArgs e)
+        {
+            HighlightButton(btnTKB);
+             LoadContent(new ThoiKhoaBieuHocSinh(maHS));
+
         }
     }
 }

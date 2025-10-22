@@ -27,6 +27,7 @@
         private void InitializeComponent()
         {
             this.sidebar = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnDKPhong = new Guna.UI2.WinForms.Guna2Button();
             this.btnChinhSuaTaiKhoan = new Guna.UI2.WinForms.Guna2Button();
             this.btnNhapDiem = new Guna.UI2.WinForms.Guna2Button();
             this.btnThongBao = new Guna.UI2.WinForms.Guna2Button();
@@ -36,7 +37,7 @@
             this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.mainPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnDKPhong = new Guna.UI2.WinForms.Guna2Button();
+            this.btnThoiKhoaBieu = new Guna.UI2.WinForms.Guna2Button();
             this.sidebar.SuspendLayout();
             this.header.SuspendLayout();
             this.SuspendLayout();
@@ -44,6 +45,7 @@
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.sidebar.Controls.Add(this.btnThoiKhoaBieu);
             this.sidebar.Controls.Add(this.btnDKPhong);
             this.sidebar.Controls.Add(this.btnChinhSuaTaiKhoan);
             this.sidebar.Controls.Add(this.btnNhapDiem);
@@ -55,6 +57,19 @@
             this.sidebar.Name = "sidebar";
             this.sidebar.Size = new System.Drawing.Size(220, 681);
             this.sidebar.TabIndex = 0;
+            // 
+            // btnDKPhong
+            // 
+            this.btnDKPhong.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDKPhong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnDKPhong.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.btnDKPhong.ForeColor = System.Drawing.Color.White;
+            this.btnDKPhong.Location = new System.Drawing.Point(0, 135);
+            this.btnDKPhong.Name = "btnDKPhong";
+            this.btnDKPhong.Size = new System.Drawing.Size(220, 45);
+            this.btnDKPhong.TabIndex = 6;
+            this.btnDKPhong.Text = "Đăng kí phòng học";
+            this.btnDKPhong.Click += new System.EventHandler(this.btnDKPhong_Click);
             // 
             // btnChinhSuaTaiKhoan
             // 
@@ -165,18 +180,18 @@
             this.mainPanel.Size = new System.Drawing.Size(1106, 681);
             this.mainPanel.TabIndex = 1;
             // 
-            // btnDKPhong
+            // btnThoiKhoaBieu
             // 
-            this.btnDKPhong.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDKPhong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnDKPhong.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.btnDKPhong.ForeColor = System.Drawing.Color.White;
-            this.btnDKPhong.Location = new System.Drawing.Point(0, 135);
-            this.btnDKPhong.Name = "btnDKPhong";
-            this.btnDKPhong.Size = new System.Drawing.Size(220, 45);
-            this.btnDKPhong.TabIndex = 6;
-            this.btnDKPhong.Text = "Đăng kí phòng học";
-            this.btnDKPhong.Click += new System.EventHandler(this.btnDKPhong_Click);
+            this.btnThoiKhoaBieu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnThoiKhoaBieu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnThoiKhoaBieu.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.btnThoiKhoaBieu.ForeColor = System.Drawing.Color.White;
+            this.btnThoiKhoaBieu.Location = new System.Drawing.Point(0, 180);
+            this.btnThoiKhoaBieu.Name = "btnThoiKhoaBieu";
+            this.btnThoiKhoaBieu.Size = new System.Drawing.Size(220, 45);
+            this.btnThoiKhoaBieu.TabIndex = 8;
+            this.btnThoiKhoaBieu.Text = "Thời khóa biểu";
+            this.btnThoiKhoaBieu.Click += new System.EventHandler(this.btnThoiKhoaBieu_Click);
             // 
             // GiaoVien
             // 
@@ -195,5 +210,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Button btnDKPhong;
+        private Guna.UI2.WinForms.Guna2Button btnThoiKhoaBieu;
     }
 }

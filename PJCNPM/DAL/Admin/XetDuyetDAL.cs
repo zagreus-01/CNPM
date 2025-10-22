@@ -35,7 +35,10 @@ namespace PJCNPM.DAL.Admin
         public bool CapNhatTrangThai(string loai, int id, string trangThai)
         {
             using (SqlConnection conn = new SqlConnection(
-                @"Data Source=TUNG;Initial Catalog=PJCNPM;Integrated Security=True"))
+                @"Data Source=aws.cbewwmqkgq51.ap-southeast-1.rds.amazonaws.com,1433;
+ Initial Catalog=CNPM;
+ User ID=admin;
+ Password=tung1234"))
             {
                 conn.Open();
                 SqlTransaction tran = conn.BeginTransaction();
